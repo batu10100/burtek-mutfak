@@ -1,0 +1,169 @@
+/* ============================================================
+   Burtek Design System — Tokens
+   Brand: burtek kahve festivali
+   A photography-first system inspired by Apple's chassis,
+   colored with Burtek's deep navy + cyan splash palette.
+   ============================================================ */
+
+:root {
+  /* -- Brand & Accent -------------------------------------- */
+  --burtek-navy:          #154A6B;   /* logo wordmark; primary brand */
+  --burtek-navy-deep:     #0E3550;   /* darker tile / nav */
+  --burtek-navy-ink:      #0A2638;   /* near-black ink alternative */
+  --burtek-cyan:          #1FA9DC;   /* splash mid-cyan */
+  --burtek-cyan-bright:   #4FC3E8;   /* splash highlight */
+  --burtek-cyan-pale:     #B4DEEC;   /* splash pale tip */
+  --burtek-action:        #1672A8;   /* CTA action blue (between navy + cyan) */
+  --burtek-action-focus:  #1880BD;   /* focus ring */
+  --burtek-action-on-dark:#5BCBF5;   /* link on dark surface */
+
+  /* Festival warmth — used sparingly, NOT as a second accent */
+  --burtek-coffee:        #6B3A1F;   /* coffee crema (imagery accent only) */
+  --burtek-crema:         #C49A6C;   /* foam/crema highlight */
+
+  /* -- Surfaces -------------------------------------------- */
+  --canvas:               #FFFFFF;
+  --canvas-parchment:     #F4F6F8;   /* cool off-white (steam + chrome vibe) */
+  --canvas-mist:          #ECF1F4;   /* alternate band */
+  --surface-pearl:        #FAFBFC;
+  --surface-tile-1:       #0E3550;   /* primary dark tile = navy-deep */
+  --surface-tile-2:       #123F5F;   /* micro-step lighter */
+  --surface-tile-3:       #0A2C44;   /* micro-step darker */
+  --surface-black:        #051826;   /* navy-black for global nav */
+  --surface-chip-translucent: rgba(210, 220, 228, 0.64);
+
+  /* -- Ink ------------------------------------------------- */
+  --ink:                  #0A2638;   /* near-navy-black */
+  --body:                 #0A2638;
+  --body-on-dark:         #FFFFFF;
+  --body-muted:           #C7D5DF;   /* muted on dark */
+  --ink-muted-80:         #2C3E4A;
+  --ink-muted-60:         #4A5C6B;
+  --ink-muted-48:         #6E8290;
+
+  /* -- Hairlines ------------------------------------------- */
+  --divider-soft:         rgba(10, 38, 56, 0.06);
+  --hairline:             #DCE5EC;
+  --hairline-strong:      #C4D2DC;
+
+  /* -- Status (semantic) ----------------------------------- */
+  --success:              #2A8F57;
+  --warning:              #C77A1F;
+  --danger:               #B53939;
+
+  /* -- Type families --------------------------------------- */
+  --font-display: "Inter Display", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-text:    "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono:    "JetBrains Mono", "SF Mono", ui-monospace, Menlo, monospace;
+
+  /* -- Type scale (display) -------------------------------- */
+  --t-hero:        56px;  --t-hero-lh: 1.07;  --t-hero-ls: -0.02em;  --t-hero-w: 600;
+  --t-display-lg:  40px;  --t-display-lg-lh: 1.10; --t-display-lg-ls: -0.015em; --t-display-lg-w: 600;
+  --t-display-md:  34px;  --t-display-md-lh: 1.18; --t-display-md-ls: -0.012em; --t-display-md-w: 600;
+  --t-lead:        28px;  --t-lead-lh: 1.30;  --t-lead-ls: 0.005em;  --t-lead-w: 400;
+  --t-lead-airy:   24px;  --t-lead-airy-lh: 1.50; --t-lead-airy-ls: 0; --t-lead-airy-w: 300;
+  --t-tagline:     21px;  --t-tagline-lh: 1.24; --t-tagline-ls: 0.005em; --t-tagline-w: 600;
+  --t-body-strong: 17px;  --t-body-strong-lh: 1.40; --t-body-strong-ls: -0.01em; --t-body-strong-w: 600;
+  --t-body:        17px;  --t-body-lh: 1.50; --t-body-ls: -0.01em; --t-body-w: 400;
+  --t-dense-link:  17px;  --t-dense-link-lh: 2.20; --t-dense-link-w: 400;
+  --t-caption:     14px;  --t-caption-lh: 1.43; --t-caption-ls: -0.005em; --t-caption-w: 400;
+  --t-caption-strong: 14px; --t-caption-strong-w: 600;
+  --t-button-lg:   18px;  --t-button-lg-w: 400;
+  --t-button-utility: 14px; --t-button-utility-w: 500;
+  --t-fine:        12px;  --t-fine-lh: 1.30; --t-fine-w: 400;
+  --t-micro:       10px;  --t-micro-lh: 1.30;
+  --t-nav-link:    13px;  --t-nav-link-w: 400;
+
+  /* -- Spacing --------------------------------------------- */
+  --sp-xxs:  4px;
+  --sp-xs:   8px;
+  --sp-sm:   12px;
+  --sp-md:   17px;
+  --sp-lg:   24px;
+  --sp-xl:   32px;
+  --sp-xxl:  48px;
+  --sp-section: 80px;
+
+  /* -- Radius ---------------------------------------------- */
+  --r-none:  0px;
+  --r-xs:    5px;
+  --r-sm:    8px;
+  --r-md:    11px;
+  --r-lg:    18px;
+  --r-pill:  9999px;
+  --r-full:  9999px;
+
+  /* -- Elevation (the ONE shadow) -------------------------- */
+  --elev-product: 3px 5px 30px 0 rgba(0, 0, 0, 0.22);
+  --elev-product-tight: 1px 2px 10px 0 rgba(0, 0, 0, 0.14);
+  --hairline-shadow: inset 0 0 0 1px var(--hairline);
+
+  /* -- Motion ---------------------------------------------- */
+  --ease-out:      cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-in-out:   cubic-bezier(0.65, 0, 0.35, 1);
+  --press-scale:   0.96;
+
+  /* -- Layout ---------------------------------------------- */
+  --container-text: 980px;
+  --container-grid: 1440px;
+  --nav-height:    44px;
+  --subnav-height: 52px;
+}
+
+/* ============================================================
+   Semantic element styles — drop into any page
+   ============================================================ */
+
+html { font-family: var(--font-text); color: var(--body); background: var(--canvas); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+body { margin: 0; }
+
+h1, .h1 {
+  font-family: var(--font-display);
+  font-size: var(--t-hero); line-height: var(--t-hero-lh); letter-spacing: var(--t-hero-ls); font-weight: var(--t-hero-w);
+  color: var(--ink); margin: 0;
+}
+h2, .h2 {
+  font-family: var(--font-display);
+  font-size: var(--t-display-lg); line-height: var(--t-display-lg-lh); letter-spacing: var(--t-display-lg-ls); font-weight: var(--t-display-lg-w);
+  color: var(--ink); margin: 0;
+}
+h3, .h3 {
+  font-family: var(--font-display);
+  font-size: var(--t-display-md); line-height: var(--t-display-md-lh); letter-spacing: var(--t-display-md-ls); font-weight: var(--t-display-md-w);
+  color: var(--ink); margin: 0;
+}
+.lead {
+  font-size: var(--t-lead); line-height: var(--t-lead-lh); letter-spacing: var(--t-lead-ls); font-weight: var(--t-lead-w);
+}
+.lead-airy {
+  font-size: var(--t-lead-airy); line-height: var(--t-lead-airy-lh); font-weight: var(--t-lead-airy-w);
+}
+.tagline {
+  font-size: var(--t-tagline); line-height: var(--t-tagline-lh); letter-spacing: var(--t-tagline-ls); font-weight: var(--t-tagline-w);
+}
+p, .body {
+  font-size: var(--t-body); line-height: var(--t-body-lh); letter-spacing: var(--t-body-ls); font-weight: var(--t-body-w);
+  color: var(--body); margin: 0;
+}
+strong, .body-strong {
+  font-weight: var(--t-body-strong-w); letter-spacing: var(--t-body-strong-ls);
+}
+small, .caption {
+  font-size: var(--t-caption); line-height: var(--t-caption-lh); letter-spacing: var(--t-caption-ls);
+}
+.fine {
+  font-size: var(--t-fine); line-height: var(--t-fine-lh);
+}
+.micro {
+  font-size: var(--t-micro); line-height: var(--t-micro-lh);
+}
+
+a {
+  color: var(--burtek-action);
+  text-decoration: none;
+  transition: opacity 0.18s var(--ease-out);
+}
+a:hover { opacity: 0.78; }
+a.on-dark, .on-dark a { color: var(--burtek-action-on-dark); }
+
+::selection { background: var(--burtek-cyan-pale); color: var(--burtek-navy-ink); }

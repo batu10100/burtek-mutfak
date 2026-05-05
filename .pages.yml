@@ -1,0 +1,113 @@
+# Burtek Mutfak — Pages CMS schema
+# https://pagescms.org/docs/configuration/
+
+media:
+  - name: products
+    label: Ürün Fotoğrafları
+    input: assets/products
+    output: assets/products
+    extensions: [jpg, jpeg, png, webp, svg]
+
+content:
+  - name: products
+    label: Ürünler
+    path: data/products.json
+    type: file
+    format: json
+    fields:
+      - name: products
+        label: Ürün Listesi
+        type: object
+        list: true
+        fields:
+          - name: id
+            label: ID (benzersiz, boşluksuz, örn. lacimbali-m40)
+            type: string
+            required: true
+          - name: brand
+            label: Marka
+            type: string
+            required: true
+          - name: model
+            label: Model
+            type: string
+            required: true
+          - name: title
+            label: Kart Başlığı
+            type: string
+            required: true
+          - name: cat
+            label: Kategori
+            type: select
+            required: true
+            options:
+              values:
+                - { value: espresso, label: Espresso Makineleri }
+                - { value: grinders, label: Kahve Değirmenleri }
+                - { value: tea, label: Çay Makineleri }
+                - { value: filter, label: Filtre Kahve }
+                - { value: ovens, label: Fırınlar }
+                - { value: ice, label: Buz Makineleri }
+                - { value: juicers, label: Meyve Sıkacakları }
+                - { value: blenders, label: Blender & Mikser }
+                - { value: display, label: Teşhir & Soğutma }
+          - name: catLabel
+            label: Kategori Etiketi (kart üstünde gösterilen başlık)
+            type: string
+            required: true
+          - name: image
+            label: Fotoğraf
+            type: image
+            options:
+              media: products
+          - name: placeholder
+            label: Placeholder Tipi (foto yokken gösterilen SVG)
+            type: string
+            description: "Örn: espresso-3g, grinder-touch, oven-led"
+          - name: tagline
+            label: Kart Altyazısı (kısa)
+            type: text
+            required: true
+          - name: description
+            label: Modal Açıklaması (uzun)
+            type: text
+            required: true
+          - name: features
+            label: Öne Çıkan Özellikler
+            type: string
+            list: true
+            description: "Modal'da check işaretli liste"
+          - name: specs
+            label: Teknik Özellikler
+            type: object
+            list: true
+            fields:
+              - name: k
+                label: Etiket (örn. Güç)
+                type: string
+                required: true
+              - name: v
+                label: Değer (örn. 5.500 W)
+                type: string
+                required: true
+      - name: categories
+        label: Kategoriler
+        type: object
+        list: true
+        fields:
+          - name: id
+            label: Kategori ID
+            type: string
+            required: true
+          - name: label
+            label: Görünen Etiket
+            type: string
+            required: true
+          - name: count
+            label: Sayım (otomatik, sadece "all" için)
+            type: number
+            required: false
+
+settings:
+  content:
+    merge: true

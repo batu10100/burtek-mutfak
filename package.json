@@ -1,0 +1,10 @@
+{
+  "name": "burtek-mutfak",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Burtek Mutfak — profesyonel kahve ve mutfak ekipmanları dijital katalog",
+  "scripts": {
+    "build": "node build-products.js",
+    "vercel-build": "node build-products.js"
+  }
+}

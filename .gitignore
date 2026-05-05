@@ -1,0 +1,19 @@
+# Vercel
+.vercel
+
+# Auto-generated from data/products.json by build-products.js
+# Regenerated on each Vercel deploy via the "vercel-build" npm script.
+data/products.js
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*

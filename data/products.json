@@ -1,0 +1,1318 @@
+{
+  "products": [
+    {
+      "id": "lacimbali-m40",
+      "brand": "La Cimbali",
+      "model": "M40 DT/3 TS",
+      "title": "M40 DT/3 TS · 3 Gruplu Otomatik Espresso",
+      "cat": "espresso",
+      "catLabel": "Espresso Makineleri",
+      "image": "assets/products/lacimbali-m40.jpg",
+      "placeholder": "espresso-3g",
+      "tagline": "Touchscreen kontrol, dijital turbosteam, üç gruplu profesyonel espresso istasyonu.",
+      "description": "La Cimbali M40, üç gruplu otomatik espresso makinesi olarak yoğun kafe ve restoran kullanımı için tasarlandı. Touchscreen panel, programlanabilir dozaj, dijital sıcaklık kontrollü turbosteam ve enerji tasarrufu modu standart donanım.",
+      "features": [
+        "Renkli touchscreen kullanıcı arayüzü",
+        "TurboSteam Milk4 dijital süt köpürtme",
+        "Bağımsız grup başına PID sıcaklık kontrolü",
+        "Cool Touch buhar borusu",
+        "Bağımsız grup boyleri · ısıl stabilite",
+        "USB ile veri aktarımı ve diyagnostik"
+      ],
+      "specs": [
+        {
+          "k": "Grup sayısı",
+          "v": "3 grup"
+        },
+        {
+          "k": "Boyler kapasitesi",
+          "v": "14 L"
+        },
+        {
+          "k": "Güç",
+          "v": "5.500 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "380–400V · 50Hz · 3N"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "975 × 570 × 530 mm"
+        },
+        {
+          "k": "Ağırlık",
+          "v": "75 kg"
+        },
+        {
+          "k": "Pompa",
+          "v": "Rotatif · 9 bar"
+        },
+        {
+          "k": "Su bağlantısı",
+          "v": "3/8\" şebeke + drenaj"
+        }
+      ]
+    },
+    {
+      "id": "lacimbali-m23",
+      "brand": "La Cimbali",
+      "model": "M23 UP DT/2",
+      "title": "M23 UP DT/2 · 2 Gruplu Otomatik Espresso",
+      "cat": "espresso",
+      "catLabel": "Espresso Makineleri",
+      "image": "assets/products/lacimbali-m23.jpg",
+      "placeholder": "espresso-2g",
+      "tagline": "Kompakt iz alanda iki gruplu güvenilir performans. Bütçe dostu profesyonel.",
+      "description": "La Cimbali M23 UP, küçük-orta ölçekli kafelerin omurgası. Volümetrik dozaj, otomatik temizlik döngüsü ve düşük servis maliyeti ile uzun ömürlü çalışma.",
+      "features": [
+        "Volümetrik elektronik dozaj",
+        "Otomatik temizlik programı",
+        "Yüksek kapasiteli ısı eşanjörlü boyler",
+        "Geleneksel buhar ve sıcak su musluğu",
+        "Aşırı basınç emniyet valfı"
+      ],
+      "specs": [
+        {
+          "k": "Grup sayısı",
+          "v": "2 grup"
+        },
+        {
+          "k": "Boyler kapasitesi",
+          "v": "10.5 L"
+        },
+        {
+          "k": "Güç",
+          "v": "3.500 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "780 × 570 × 510 mm"
+        },
+        {
+          "k": "Ağırlık",
+          "v": "62 kg"
+        },
+        {
+          "k": "Pompa",
+          "v": "Rotatif · 9 bar"
+        }
+      ]
+    },
+    {
+      "id": "nuova-appia-life",
+      "brand": "Nuova Simonelli",
+      "model": "Appia Life 2 GR",
+      "title": "Appia Life · 2 Gruplu Yüksek Kaşıklı, Siyah",
+      "cat": "espresso",
+      "catLabel": "Espresso Makineleri",
+      "image": "assets/products/nuova-appia-life.jpg",
+      "placeholder": "espresso-2g-tall",
+      "tagline": "Yüksek kaşıklı tasarım — büyük take-away kupalar için ergonomik akış.",
+      "description": "Nuova Simonelli Appia Life, ergonomik LED aydınlatmalı çalışma alanı ve yüksek kaşıklı (tall cup) tasarımı ile take-away yoğun kafelerin tercihi. Soft Infusion System ile dengeli ekstraksiyon.",
+      "features": [
+        "Yüksek kaşıklı (tall cup) yapı",
+        "Soft Infusion System (SIS)",
+        "LED aydınlatmalı çalışma alanı",
+        "Ergonomik portafiltre tutucu",
+        "Cool Touch buhar borusu opsiyonu",
+        "Programlanabilir 5 dozaj seçeneği"
+      ],
+      "specs": [
+        {
+          "k": "Grup sayısı",
+          "v": "2 grup"
+        },
+        {
+          "k": "Boyler kapasitesi",
+          "v": "11 L"
+        },
+        {
+          "k": "Güç",
+          "v": "4.500 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230–400V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "740 × 545 × 525 mm"
+        },
+        {
+          "k": "Ağırlık",
+          "v": "63 kg"
+        },
+        {
+          "k": "Renk",
+          "v": "Siyah"
+        }
+      ]
+    },
+    {
+      "id": "bezzera-b2016",
+      "brand": "Bezzera",
+      "model": "B2016 DE",
+      "title": "B2016 · Volümetrik Otomatik Espresso",
+      "cat": "espresso",
+      "catLabel": "Espresso Makineleri",
+      "image": "assets/products/bezzera-b2016.webp",
+      "placeholder": "espresso-2g-classic",
+      "tagline": "1901'den beri Milano. Klasik İtalyan estetiği, modern volümetrik kontrol.",
+      "description": "Bezzera B2016, klasik İtalyan espresso geleneğinin modern yorumu. Volümetrik dozaj, ısı eşanjörlü boyler ve sağlam pirinç grup yapısı ile uzun yıllar dayanıklılık sunar.",
+      "features": [
+        "Volümetrik elektronik dozaj kontrolü",
+        "Pirinç E61 grup yapısı",
+        "Isı eşanjörlü boyler",
+        "Manometre · pompa ve boyler basıncı",
+        "Made in Italy"
+      ],
+      "specs": [
+        {
+          "k": "Grup sayısı",
+          "v": "2 grup"
+        },
+        {
+          "k": "Boyler kapasitesi",
+          "v": "11 L"
+        },
+        {
+          "k": "Güç",
+          "v": "4.300 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230–400V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "770 × 565 × 530 mm"
+        },
+        {
+          "k": "Ağırlık",
+          "v": "65 kg"
+        },
+        {
+          "k": "Menşei",
+          "v": "İtalya"
+        }
+      ]
+    },
+    {
+      "id": "fiorenzato-f64",
+      "brand": "Fiorenzato",
+      "model": "F64 EVO Sense",
+      "title": "F64 EVO Sense · Dokunmatik On-Demand Değirmen",
+      "cat": "grinders",
+      "catLabel": "Kahve Değirmenleri",
+      "image": "assets/products/fiorenzato-f64.jpg",
+      "placeholder": "grinder-touch",
+      "tagline": "Dokunmatik ekran, otomatik kalibrasyon, akıllı sıcaklık yönetimi.",
+      "description": "Fiorenzato F64 EVO Sense, 64 mm düz çelik bıçaklı on-demand değirmen. Dokunmatik LCD ekran, otomatik kalibrasyon ve sıcaklık sensörü ile her dozda tutarlı öğütme.",
+      "features": [
+        "64 mm düz çelik bıçak",
+        "3.5\" dokunmatik LCD ekran",
+        "Otomatik öğütme sıcaklığı kontrolü",
+        "Single ve double doz programlama",
+        "Bıçak ömrü sayacı",
+        "Mikrometrik öğütme ayarı"
+      ],
+      "specs": [
+        {
+          "k": "Bıçak çapı",
+          "v": "64 mm · düz"
+        },
+        {
+          "k": "Hopper kapasitesi",
+          "v": "1.6 kg"
+        },
+        {
+          "k": "Motor gücü",
+          "v": "350 W"
+        },
+        {
+          "k": "Devir",
+          "v": "1.350 rpm"
+        },
+        {
+          "k": "Üretim hızı",
+          "v": "5–7 g/sn"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "200 × 390 × 660 mm"
+        },
+        {
+          "k": "Ağırlık",
+          "v": "16 kg"
+        }
+      ]
+    },
+    {
+      "id": "fiorenzato-allground",
+      "brand": "Fiorenzato",
+      "model": "All Ground MD",
+      "title": "All Ground MD · Konik Bıçaklı Değirmen, Siyah",
+      "cat": "grinders",
+      "catLabel": "Kahve Değirmenleri",
+      "image": "assets/products/fiorenzato-allground.jpg",
+      "placeholder": "grinder-conic",
+      "tagline": "Konik bıçaklı çok amaçlı değirmen — espresso'dan filtre kahveye tek makina.",
+      "description": "All Ground MD, espresso'dan French press'e kadar geniş öğütme aralığı sunan çok amaçlı değirmen. Konik bıçak yapısı düşük ısı transferi sağlar, aroma korunur.",
+      "features": [
+        "Konik çelik bıçak yapısı",
+        "Geniş öğütme aralığı",
+        "Düşük ısı transferi · aroma korunur",
+        "Ayarlanabilir dozaj zamanlayıcı",
+        "Sessiz çalışma"
+      ],
+      "specs": [
+        {
+          "k": "Bıçak tipi",
+          "v": "Konik · 64 mm"
+        },
+        {
+          "k": "Hopper kapasitesi",
+          "v": "1.5 kg"
+        },
+        {
+          "k": "Motor gücü",
+          "v": "300 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Renk",
+          "v": "Siyah mat"
+        },
+        {
+          "k": "Ağırlık",
+          "v": "14 kg"
+        }
+      ]
+    },
+    {
+      "id": "mazzer-grinder",
+      "brand": "Mazzer",
+      "model": "Süper Jolly",
+      "title": "Süper Jolly · Profesyonel Espresso Değirmeni",
+      "cat": "grinders",
+      "catLabel": "Kahve Değirmenleri",
+      "image": "assets/products/mazzer-grinder.jpg",
+      "placeholder": "grinder-classic",
+      "tagline": "İtalyan klasiği. Endüstri standardı 64 mm bıçak, dövme alüminyum gövde.",
+      "description": "Mazzer Süper Jolly, espresso dünyasının referans değirmeni. 64 mm düz bıçak, dövme alüminyum gövde ve sürekli kullanıma uygun motor ile yıllarca güvenilir performans.",
+      "features": [
+        "64 mm düz çelik bıçak",
+        "Dövme alüminyum gövde",
+        "Mikrometrik adımsız öğütme ayarı",
+        "Düşük gürültü seviyesi",
+        "Made in Italy"
+      ],
+      "specs": [
+        {
+          "k": "Bıçak çapı",
+          "v": "64 mm"
+        },
+        {
+          "k": "Hopper kapasitesi",
+          "v": "1.2 kg"
+        },
+        {
+          "k": "Motor gücü",
+          "v": "350 W"
+        },
+        {
+          "k": "Devir",
+          "v": "1.400 rpm"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Üretim",
+          "v": "7 g/sn (espresso)"
+        },
+        {
+          "k": "Ağırlık",
+          "v": "13 kg"
+        }
+      ]
+    },
+    {
+      "id": "remta-de22",
+      "brand": "REMTA",
+      "model": "DE22",
+      "title": "DE22 · 2 Demlikli Pro Şamandıralı Çay Makinesi",
+      "cat": "tea",
+      "catLabel": "Çay Makineleri",
+      "image": "assets/products/remta-de22.jpg",
+      "placeholder": "tea-2pot",
+      "tagline": "Şebekeye doğrudan bağlantı, otomatik şamandıra — sürekli çay.",
+      "description": "REMTA DE22, şebeke su bağlantılı iki demlikli profesyonel çay makinesi. Şamandıra sistemi su seviyesini otomatik korur, ahşap panelli klasik tasarım kafe atmosferini tamamlar.",
+      "features": [
+        "Şebeke su bağlantılı şamandıra sistemi",
+        "İki adet paslanmaz çelik demlik",
+        "Termometreli ahşap ön panel",
+        "Tahliye musluğu ve damlalık tepsisi",
+        "Otomatik su seviyesi koruması"
+      ],
+      "specs": [
+        {
+          "k": "Demlik sayısı",
+          "v": "2 adet"
+        },
+        {
+          "k": "Su haznesi",
+          "v": "12 L"
+        },
+        {
+          "k": "Demlik kapasitesi",
+          "v": "2 × 1.5 L"
+        },
+        {
+          "k": "Güç",
+          "v": "3.000 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Su bağlantısı",
+          "v": "Şebeke · 1/2\""
+        },
+        {
+          "k": "Gövde",
+          "v": "Paslanmaz çelik + ahşap"
+        }
+      ]
+    },
+    {
+      "id": "myco-filter",
+      "brand": "MYCO",
+      "model": "Filtre Pro",
+      "title": "MYCO · Çift Potlu Filtre Kahve Makinesi",
+      "cat": "filter",
+      "catLabel": "Filtre Kahve",
+      "image": "assets/products/myco-filter.jpg",
+      "placeholder": "filter-double",
+      "tagline": "Çift cam pot, üst ısıtma plakası — kahveniz hep taze ve sıcak.",
+      "description": "MYCO çift potlu filtre kahve makinesi, ofis ve kafelerde sürekli filtre kahve servisi için ideal. Üst sıcak tutma plakası ile ikinci pot her zaman hazır.",
+      "features": [
+        "Çift cam pot kapasitesi",
+        "Üst ve alt sıcak tutma plakaları",
+        "Tek dokunuşla demleme",
+        "Paslanmaz çelik gövde",
+        "1.8 L hızlı demleme"
+      ],
+      "specs": [
+        {
+          "k": "Pot kapasitesi",
+          "v": "2 × 1.8 L"
+        },
+        {
+          "k": "Demleme süresi",
+          "v": "~6 dk"
+        },
+        {
+          "k": "Güç",
+          "v": "2.100 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "210 × 380 × 440 mm"
+        },
+        {
+          "k": "Gövde",
+          "v": "Paslanmaz çelik"
+        }
+      ]
+    },
+    {
+      "id": "kef-filter",
+      "brand": "KEF",
+      "model": "Filtro",
+      "title": "KEF Filtro · Filtre Kahve Makinesi, Siyah",
+      "cat": "filter",
+      "catLabel": "Filtre Kahve",
+      "image": "assets/products/kef-filter.jpg",
+      "placeholder": "filter-single",
+      "tagline": "Sade ve dayanıklı. Tek pot filtre kahve, mat siyah gövde.",
+      "description": "KEF Filtro, kompakt iz alanda profesyonel filtre kahve. Mat siyah gövde, basit kontrol — eğitim gerektirmeyen güvenilir günlük makina.",
+      "features": [
+        "Tek dokunuşla otomatik demleme",
+        "Sıcak tutma plakası",
+        "Mat siyah gövde · iz bırakmaz",
+        "Çıkarılabilir filtre haznesi",
+        "Termik koruma"
+      ],
+      "specs": [
+        {
+          "k": "Pot kapasitesi",
+          "v": "1.8 L"
+        },
+        {
+          "k": "Güç",
+          "v": "2.000 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "200 × 360 × 440 mm"
+        },
+        {
+          "k": "Renk",
+          "v": "Mat siyah"
+        }
+      ]
+    },
+    {
+      "id": "unox-rosella",
+      "brand": "UNOX",
+      "model": "Bakerlux Rosella",
+      "title": "Bakerlux Rosella · LED Kontrollü Konveksiyon Fırın",
+      "cat": "ovens",
+      "catLabel": "Fırınlar",
+      "image": "assets/products/unox-rosella.jpg",
+      "placeholder": "oven-led",
+      "tagline": "İtalyan mühendisliği. LED kontrol, çift fan, çıtır bakery sonucu.",
+      "description": "UNOX Bakerlux Rosella, pasta ve unlu mamul için optimize edilmiş konveksiyon fırın. LED kontrol paneli ile sezgisel kullanım, çift fan ile homojen pişirme.",
+      "features": [
+        "LED kontrol paneli",
+        "Çift ters dönüşlü fan sistemi",
+        "Buhar enjeksiyonu (DRY.Plus)",
+        "4 adet 460×330 mm tepsi",
+        "Programlanabilir 70 reçete hafızası",
+        "EnergyStar sertifikalı"
+      ],
+      "specs": [
+        {
+          "k": "Tepsi kapasitesi",
+          "v": "4 × 460 × 330 mm"
+        },
+        {
+          "k": "Sıcaklık aralığı",
+          "v": "30 – 260°C"
+        },
+        {
+          "k": "Güç",
+          "v": "2.700 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "600 × 720 × 510 mm"
+        },
+        {
+          "k": "Buhar",
+          "v": "Manuel enjeksiyon"
+        },
+        {
+          "k": "Menşei",
+          "v": "İtalya"
+        }
+      ]
+    },
+    {
+      "id": "inoksan-oven",
+      "brand": "İnoksan",
+      "model": "FKE040",
+      "title": "İnoksan FKE040 · 40×60 Konveksiyon Fırın, 4 Tepsi",
+      "cat": "ovens",
+      "catLabel": "Fırınlar",
+      "image": "assets/products/inoksan-oven.jpg",
+      "placeholder": "oven-mechanical",
+      "tagline": "Türk endüstrisinin omurgası. Mekanik kontrol, dayanıklı, kolay servis.",
+      "description": "İnoksan FKE040, 40×60 cm tepsi standardında 4 tepsilik konveksiyon fırın. Mekanik kontroller eğitim gerektirmez; tüm Türkiye genelinde yaygın servis ağı.",
+      "features": [
+        "4 × 40×60 cm tepsi kapasitesi",
+        "Mekanik termostat ve zamanlayıcı",
+        "Buhar enjeksiyon butonu",
+        "Çift cam tam görüş kapağı",
+        "Paslanmaz çelik tam gövde",
+        "Yaygın yetkili servis ağı"
+      ],
+      "specs": [
+        {
+          "k": "Tepsi kapasitesi",
+          "v": "4 × 400 × 600 mm"
+        },
+        {
+          "k": "Sıcaklık aralığı",
+          "v": "50 – 280°C"
+        },
+        {
+          "k": "Güç",
+          "v": "6.300 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "400V · 50Hz · 3N"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "780 × 720 × 660 mm"
+        },
+        {
+          "k": "Ağırlık",
+          "v": "62 kg"
+        },
+        {
+          "k": "Menşei",
+          "v": "Türkiye"
+        }
+      ]
+    },
+    {
+      "id": "atollspeed-easy",
+      "brand": "Atollspeed",
+      "model": "Easy Silver",
+      "title": "Easy Silver · Hızlı Pişirici Fırın",
+      "cat": "ovens",
+      "catLabel": "Fırınlar",
+      "image": "assets/products/atollspeed-easy.jpg",
+      "placeholder": "oven-speed",
+      "tagline": "Mikrodalga + konveksiyon + ızgara. Take-away için ışık hızında pişirme.",
+      "description": "Atollspeed Easy Silver, mikrodalga, konveksiyon ve infrared ızgarayı tek cihazda birleştiren hızlı pişirici. Sandviç, panini, pizza ve hazır yemekler için saniyeler içinde sıcak servis.",
+      "features": [
+        "3-in-1 teknoloji: mikrodalga + konveksiyon + ızgara",
+        "Dokunmatik renkli ekran",
+        "1.000+ programlanabilir reçete",
+        "USB ile reçete yükleme",
+        "Catalytic converter · havalandırma gerektirmez",
+        "Otomatik temizlik döngüsü"
+      ],
+      "specs": [
+        {
+          "k": "Pişirme hızı",
+          "v": "Geleneksele göre 4–10× hızlı"
+        },
+        {
+          "k": "Mikrodalga gücü",
+          "v": "1.500 W"
+        },
+        {
+          "k": "Konveksiyon",
+          "v": "275°C max"
+        },
+        {
+          "k": "Toplam güç",
+          "v": "5.700 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "İç hacim",
+          "v": "16 L"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "415 × 615 × 570 mm"
+        }
+      ]
+    },
+    {
+      "id": "ndustrio-display",
+      "brand": "Ndustrio",
+      "model": "Pasta 70",
+      "title": "Ndustrio · 70'lik Pasta Teşhir Dolabı",
+      "cat": "display",
+      "catLabel": "Teşhir & Soğutma",
+      "image": "assets/products/ndustrio-display.webp",
+      "placeholder": "display-cake",
+      "tagline": "Curved cam teşhir, çift raf — pasta ve hamur işleri vitrin gibi.",
+      "description": "Ndustrio 70 cm pasta teşhir dolabı, kavisli ön cam ve LED aydınlatma ile pasta sunumunu görsel olarak güçlendirir. +2/+8°C aralığı standart pasta saklama.",
+      "features": [
+        "Kavisli ön cam · panoramik görünüm",
+        "LED iç aydınlatma",
+        "2 adet ayarlanabilir cam raf",
+        "Dijital sıcaklık göstergesi",
+        "Otomatik defrost",
+        "Sessiz fan motoru"
+      ],
+      "specs": [
+        {
+          "k": "Sıcaklık aralığı",
+          "v": "+2 / +8 °C"
+        },
+        {
+          "k": "Genişlik",
+          "v": "70 cm"
+        },
+        {
+          "k": "Kapasite",
+          "v": "100 L"
+        },
+        {
+          "k": "Güç",
+          "v": "260 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Soğutucu gaz",
+          "v": "R600a · ekolojik"
+        }
+      ]
+    },
+    {
+      "id": "hoshizaki-ice",
+      "brand": "Hoshizaki",
+      "model": "DCM-60KE",
+      "title": "Hoshizaki · 60 kg Buz ve Su Dağıtıcı",
+      "cat": "ice",
+      "catLabel": "Buz Makineleri",
+      "image": "assets/products/hoshizaki-ice.jpg",
+      "placeholder": "ice-dispenser",
+      "tagline": "Japon mühendisliği. 60 kg/gün buz + soğuk su, tek dokunuşla servis.",
+      "description": "Hoshizaki DCM-60KE, hem küp buz hem soğuk su dağıtan kendi kendine servis cihazı. Otel lobisi, ofis ve fitness merkezleri için hijyenik temassız servis.",
+      "features": [
+        "60 kg/gün buz üretimi",
+        "Soğuk su dağıtım fonksiyonu",
+        "Temassız sensörlü dağıtım",
+        "Antimikrobiyal iç yüzey",
+        "Otomatik temizlik bildirimi",
+        "Düşük enerji · CycleSaver teknolojisi"
+      ],
+      "specs": [
+        {
+          "k": "Buz üretim kapasitesi",
+          "v": "60 kg/24 saat"
+        },
+        {
+          "k": "Buz tipi",
+          "v": "Cubelet · yumuşak çiğnenebilir"
+        },
+        {
+          "k": "Hazne kapasitesi",
+          "v": "9 kg"
+        },
+        {
+          "k": "Güç",
+          "v": "550 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "395 × 600 × 800 mm"
+        },
+        {
+          "k": "Soğutucu",
+          "v": "R290 · doğal"
+        },
+        {
+          "k": "Menşei",
+          "v": "Japonya"
+        }
+      ]
+    },
+    {
+      "id": "ozti-okb37a",
+      "brand": "Öztiryaki",
+      "model": "OKB37A",
+      "title": "Öztiryaki OKB37A · Küp Buz Makinesi",
+      "cat": "ice",
+      "catLabel": "Buz Makineleri",
+      "image": "assets/products/ozti-okb37a.jpg",
+      "placeholder": "ice-cube",
+      "tagline": "Türk üretimi. 37 kg/gün küp buz, kompakt under-counter yerleşim.",
+      "description": "Öztiryaki OKB37A, bar ve kafe için optimize edilmiş under-counter küp buz makinesi. Yerli üretim, kolay servis ve düşük çalışma maliyeti.",
+      "features": [
+        "37 kg/gün buz üretimi",
+        "15 kg buz haznesi",
+        "Hava ile soğutma",
+        "Paslanmaz çelik gövde",
+        "Otomatik temizlik döngüsü",
+        "Türkiye geneli servis"
+      ],
+      "specs": [
+        {
+          "k": "Buz üretimi",
+          "v": "37 kg/24 saat"
+        },
+        {
+          "k": "Buz tipi",
+          "v": "Küp · 22 g"
+        },
+        {
+          "k": "Hazne kapasitesi",
+          "v": "15 kg"
+        },
+        {
+          "k": "Güç",
+          "v": "350 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "500 × 580 × 720 mm"
+        },
+        {
+          "k": "Soğutma",
+          "v": "Hava"
+        }
+      ]
+    },
+    {
+      "id": "simag-sde40",
+      "brand": "Simag",
+      "model": "SDE40",
+      "title": "Simag SDE40 · İtalyan Küp Buz Makinesi",
+      "cat": "ice",
+      "catLabel": "Buz Makineleri",
+      "image": "assets/products/simag-sde40.jpg",
+      "placeholder": "ice-italian",
+      "tagline": "İtalyan profesyonel buz. Şeffaf küp, sessiz, dayanıklı.",
+      "description": "Simag SDE40, kristal berraklığında küp buz üreten İtalyan profesyonel makinesi. Kokteyl barları ve restoranlar için tasarlandı.",
+      "features": [
+        "Kristal berraklığında küp buz",
+        "40 kg/gün üretim",
+        "Sessiz çalışma",
+        "Hijyenik dahili antimikrobiyal koruma",
+        "Made in Italy"
+      ],
+      "specs": [
+        {
+          "k": "Buz üretimi",
+          "v": "40 kg/24 saat"
+        },
+        {
+          "k": "Buz tipi",
+          "v": "Şeffaf küp · 18 g"
+        },
+        {
+          "k": "Hazne kapasitesi",
+          "v": "16 kg"
+        },
+        {
+          "k": "Güç",
+          "v": "400 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "500 × 580 × 690 mm"
+        },
+        {
+          "k": "Menşei",
+          "v": "İtalya"
+        }
+      ]
+    },
+    {
+      "id": "iceinox-35kg",
+      "brand": "Ice Inox",
+      "model": "TKY35",
+      "title": "Ice Inox · 35 kg Buz Makinesi",
+      "cat": "ice",
+      "catLabel": "Buz Makineleri",
+      "image": "assets/products/iceinox-35kg.jpg",
+      "placeholder": "ice-stainless",
+      "tagline": "Tam paslanmaz gövde. 35 kg/gün, ekonomik profesyonel buz.",
+      "description": "Ice Inox TKY35, tam paslanmaz çelik gövdeli profesyonel buz makinesi. Yerli üretim, ekonomik fiyat, yaygın servis.",
+      "features": [
+        "35 kg/gün buz üretimi",
+        "Tam paslanmaz çelik gövde",
+        "Hava soğutmalı kompresör",
+        "Otomatik su seviyesi kontrolü",
+        "Düşük enerji tüketimi"
+      ],
+      "specs": [
+        {
+          "k": "Buz üretimi",
+          "v": "35 kg/24 saat"
+        },
+        {
+          "k": "Buz tipi",
+          "v": "Küp"
+        },
+        {
+          "k": "Hazne kapasitesi",
+          "v": "13 kg"
+        },
+        {
+          "k": "Güç",
+          "v": "330 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "490 × 570 × 690 mm"
+        }
+      ]
+    },
+    {
+      "id": "robot-coupe-j80",
+      "brand": "Robot Coupe",
+      "model": "J80 Ultra",
+      "title": "Robot Coupe J80 · Profesyonel Katı Meyve Sıkacağı",
+      "cat": "juicers",
+      "catLabel": "Meyve Sıkacakları",
+      "image": "assets/products/robot-coupe-j80.jpg",
+      "placeholder": "juicer-pro",
+      "tagline": "Fransız mühendisliği. 79 mm besleme ağzı — bütün meyve, doğrudan içeri.",
+      "description": "Robot Coupe J80 Ultra, geniş besleme ağzı ve sürekli pulp atımı ile barlarda hız kazandırır. Saatte 120+ bardak taze meyve suyu kapasitesi.",
+      "features": [
+        "79 mm geniş besleme ağzı",
+        "Sürekli pulp atım sistemi",
+        "Endüksiyon motor · sessiz, dayanıklı",
+        "Paslanmaz çelik filtre ve sürahi",
+        "Otomatik durdurma · güvenlik",
+        "Made in France"
+      ],
+      "specs": [
+        {
+          "k": "Kapasite",
+          "v": "120+ bardak/saat"
+        },
+        {
+          "k": "Besleme ağzı",
+          "v": "Ø 79 mm"
+        },
+        {
+          "k": "Motor",
+          "v": "700 W · endüksiyon"
+        },
+        {
+          "k": "Devir",
+          "v": "3.000 rpm"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Pulp haznesi",
+          "v": "Sürekli atım · 10 L"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "227 × 425 × 595 mm"
+        },
+        {
+          "k": "Menşei",
+          "v": "Fransa"
+        }
+      ]
+    },
+    {
+      "id": "remta-juicer",
+      "brand": "REMTA",
+      "model": "Pro Juicer",
+      "title": "REMTA · Profesyonel Katı Meyve Sıkacağı",
+      "cat": "juicers",
+      "catLabel": "Meyve Sıkacakları",
+      "image": "assets/products/remta-juicer.jpg",
+      "placeholder": "juicer-classic",
+      "tagline": "Klasik tezgah üstü juicer. Hızlı, ekonomik, kolay temizlenir.",
+      "description": "REMTA profesyonel katı meyve sıkacağı, kafelerde günlük taze meyve suyu için ekonomik çözüm. Paslanmaz çelik gövde, kolay sökülen filtre.",
+      "features": [
+        "Paslanmaz çelik gövde",
+        "Kolay sökülen filtre · hijyenik temizlik",
+        "Damlama tepsisi entegre",
+        "Aşırı yük koruması",
+        "Yerli üretim · Türkiye servis"
+      ],
+      "specs": [
+        {
+          "k": "Motor gücü",
+          "v": "550 W"
+        },
+        {
+          "k": "Devir",
+          "v": "2.800 rpm"
+        },
+        {
+          "k": "Besleme ağzı",
+          "v": "Ø 65 mm"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "240 × 370 × 530 mm"
+        },
+        {
+          "k": "Gövde",
+          "v": "Paslanmaz çelik"
+        }
+      ]
+    },
+    {
+      "id": "felice-juicer",
+      "brand": "Felice",
+      "model": "Press",
+      "title": "Felice · Katı Meyve Presi",
+      "cat": "juicers",
+      "catLabel": "Meyve Sıkacakları",
+      "image": "assets/products/felice-juicer.jpg",
+      "placeholder": "juicer-press",
+      "tagline": "Düşük devir presleme — daha yüksek verim, daha az köpük.",
+      "description": "Felice katı meyve presi, düşük devirli presleme yöntemi ile maksimum meyve verimi. Az ısı transferi sayesinde vitamin korunur.",
+      "features": [
+        "Düşük devirli presleme",
+        "Yüksek meyve suyu verimi",
+        "Vitamin koruyucu soğuk pres prensibi",
+        "Sessiz çalışma",
+        "Paslanmaz çelik filtre"
+      ],
+      "specs": [
+        {
+          "k": "Motor",
+          "v": "400 W · sessiz endüksiyon"
+        },
+        {
+          "k": "Devir",
+          "v": "60 rpm · cold press"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "220 × 380 × 510 mm"
+        },
+        {
+          "k": "Gövde",
+          "v": "Paslanmaz çelik"
+        }
+      ]
+    },
+    {
+      "id": "samixir-slush24",
+      "brand": "Samixir",
+      "model": "Slush24",
+      "title": "Samixir Slush24 · Granita & Slush Makinesi",
+      "cat": "juicers",
+      "catLabel": "Meyve Sıkacakları",
+      "image": "assets/products/samixir-slush24.jpg",
+      "placeholder": "slush",
+      "tagline": "Şeffaf hazne, dönen helezon — yazın görsel showu.",
+      "description": "Samixir Slush24, dönen helezonlu çift hazneli granita makinesi. Şeffaf polikarbonat hazneler ürünü vitrinleştirir, müşteriyi içeri çeker.",
+      "features": [
+        "Çift şeffaf polikarbonat hazne",
+        "Dönen paslanmaz helezon",
+        "Ayarlanabilir kıvam termostatı",
+        "Aydınlatmalı kapak",
+        "Kolay sökülerek temizlik"
+      ],
+      "specs": [
+        {
+          "k": "Hazne",
+          "v": "2 × 12 L"
+        },
+        {
+          "k": "Soğutma sıcaklığı",
+          "v": "-3°C / +6°C"
+        },
+        {
+          "k": "Güç",
+          "v": "650 W"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "470 × 540 × 870 mm"
+        }
+      ]
+    },
+    {
+      "id": "samixir-m10",
+      "brand": "Samixir",
+      "model": "M10",
+      "title": "Samixir M10 · Mikser",
+      "cat": "blenders",
+      "catLabel": "Blender & Mikser",
+      "image": "assets/products/samixir-m10.jpg",
+      "placeholder": "mixer",
+      "tagline": "Profesyonel ayran ve milkshake mikseri.",
+      "description": "Samixir M10, ayran, milkshake ve protein içecekleri için yüksek devirli profesyonel mikser. Tek dokunuşla çalışma, paslanmaz çelik gövde.",
+      "features": [
+        "Yüksek devirli motor",
+        "Paslanmaz çelik mikser kafası",
+        "Otomatik durdurma · bardak kaldırılınca",
+        "Damlama tepsisi entegre",
+        "Yerli üretim"
+      ],
+      "specs": [
+        {
+          "k": "Motor",
+          "v": "300 W"
+        },
+        {
+          "k": "Devir",
+          "v": "15.000 rpm"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "180 × 220 × 580 mm"
+        }
+      ]
+    },
+    {
+      "id": "hamilton-commercial",
+      "brand": "Hamilton Beach",
+      "model": "HBH650",
+      "title": "Hamilton Beach · Ses İzolasyonlu Commercial Blender",
+      "cat": "blenders",
+      "catLabel": "Blender & Mikser",
+      "image": "assets/products/hamilton-commercial.jpg",
+      "placeholder": "blender-quiet",
+      "tagline": "Ses kabini ile sessiz operasyon — yoğun barda bile konuşulabilir.",
+      "description": "Hamilton Beach ses izolasyonlu blender, akustik kabini ile gürültüyü %75 azaltır. Açık mutfak ve barlarda akşam servisi için ideal.",
+      "features": [
+        "Quiet Shield ses izolasyonu",
+        "5 programlanabilir hız + pulse",
+        "3 PS motor",
+        "1.4 L polikarbonat sürahi",
+        "LED dijital ekran",
+        "Otomatik durdurma"
+      ],
+      "specs": [
+        {
+          "k": "Sürahi kapasitesi",
+          "v": "1.4 L"
+        },
+        {
+          "k": "Motor",
+          "v": "3 PS / 2.200 W"
+        },
+        {
+          "k": "Devir",
+          "v": "20.000 rpm max"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Gürültü azaltma",
+          "v": "%75 · ~70 dB"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "215 × 280 × 540 mm"
+        }
+      ]
+    },
+    {
+      "id": "hamilton-hbb908",
+      "brand": "Hamilton Beach",
+      "model": "HBB908-CE",
+      "title": "Hamilton Beach HBB908-CE · 2 Hızlı Bar Blender",
+      "cat": "blenders",
+      "catLabel": "Blender & Mikser",
+      "image": "assets/products/hamilton-hbb908.jpg",
+      "placeholder": "blender-bar",
+      "tagline": "Bar klasiği. Toggle anahtar, dayanıklı motor, yıllarca servis.",
+      "description": "Hamilton Beach HBB908, ABD'de bar standardı olan dayanıklı blender. İki hız + off toggle anahtarı, ağır kullanım için tasarlandı.",
+      "features": [
+        "İki hız + off toggle anahtarı",
+        "1.4 L polikarbonat sürahi",
+        "Sertleştirilmiş çelik bıçaklar",
+        "Yüksek tork motor",
+        "Kolay temizlik"
+      ],
+      "specs": [
+        {
+          "k": "Sürahi kapasitesi",
+          "v": "1.4 L · polikarbonat"
+        },
+        {
+          "k": "Motor",
+          "v": "950 W"
+        },
+        {
+          "k": "Hız",
+          "v": "2 hız + pulse"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "180 × 220 × 460 mm"
+        }
+      ]
+    },
+    {
+      "id": "oztiryaki-bl811",
+      "brand": "Öztiryaki",
+      "model": "BL811",
+      "title": "Öztiryaki BL811 · Profesyonel Blender",
+      "cat": "blenders",
+      "catLabel": "Blender & Mikser",
+      "image": "assets/products/oztiryaki-bl811.jpg",
+      "placeholder": "blender-pro",
+      "tagline": "Yerli profesyonel. Yüksek hacim, ekonomik fiyat.",
+      "description": "Öztiryaki BL811, ayran, smoothie ve sos için yüksek hacimli profesyonel blender. Tritan sürahi, çelik bıçak, yerli garanti.",
+      "features": [
+        "2 L Tritan sürahi",
+        "Sertleştirilmiş çelik bıçak",
+        "Değişken hız + pulse",
+        "Aşırı yük koruması",
+        "Yerli üretim · 2 yıl garanti"
+      ],
+      "specs": [
+        {
+          "k": "Sürahi kapasitesi",
+          "v": "2 L · Tritan"
+        },
+        {
+          "k": "Motor",
+          "v": "1.500 W"
+        },
+        {
+          "k": "Devir",
+          "v": "25.000 rpm max"
+        },
+        {
+          "k": "Voltaj",
+          "v": "230V · 50Hz"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "200 × 240 × 510 mm"
+        }
+      ]
+    },
+    {
+      "id": "oztiryaki-cb699d",
+      "brand": "Öztiryaki",
+      "model": "CB699-D",
+      "title": "Öztiryaki CB699-D · Ses Kabinli Akıllı Blender",
+      "cat": "blenders",
+      "catLabel": "Blender & Mikser",
+      "image": "assets/products/oztiryaki-cb699d.webp",
+      "placeholder": "blender-smart",
+      "tagline": "LCD ekran, programlanabilir reçeteler, akustik kabin.",
+      "description": "Öztiryaki CB699-D, LCD ekran ve programlanabilir reçete hafızası ile barista iş akışını hızlandıran ses kabinli blender. 220–240V CE sertifikalı.",
+      "features": [
+        "Akustik koruma kabini",
+        "LCD dijital ekran + zamanlayıcı",
+        "8 programlanabilir reçete",
+        "Tritan sürahi",
+        "Otomatik durdurma + soft start",
+        "CE sertifikalı"
+      ],
+      "specs": [
+        {
+          "k": "Sürahi kapasitesi",
+          "v": "1.5 L · Tritan"
+        },
+        {
+          "k": "Motor",
+          "v": "1.800 W"
+        },
+        {
+          "k": "Devir",
+          "v": "30.000 rpm max"
+        },
+        {
+          "k": "Voltaj",
+          "v": "220–240V · 50Hz"
+        },
+        {
+          "k": "Gürültü",
+          "v": "<78 dB"
+        },
+        {
+          "k": "Ölçüler (GxDxY)",
+          "v": "210 × 260 × 580 mm"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "label": "Tümü",
+      "count": 27
+    },
+    {
+      "id": "espresso",
+      "label": "Espresso"
+    },
+    {
+      "id": "grinders",
+      "label": "Değirmenler"
+    },
+    {
+      "id": "tea",
+      "label": "Çay"
+    },
+    {
+      "id": "filter",
+      "label": "Filtre Kahve"
+    },
+    {
+      "id": "ovens",
+      "label": "Fırınlar"
+    },
+    {
+      "id": "ice",
+      "label": "Buz"
+    },
+    {
+      "id": "juicers",
+      "label": "Meyve & Slush"
+    },
+    {
+      "id": "blenders",
+      "label": "Blender"
+    },
+    {
+      "id": "display",
+      "label": "Teşhir"
+    }
+  ]
+}

@@ -7,10 +7,10 @@
       "title": "M40 DT/3 TS · 3 Gruplu Otomatik Espresso",
       "cat": "espresso",
       "catLabel": "Espresso Makineleri",
-      "image": "assets/products/deneme.png",
+      "image": "assets/products/la-cimbali-m40-dt-3-tam-otomatik-espresso-kahve-makinesi-3-gruplu-beyaz-espresso-makineleri-la-cimbali-kahve-makinesi-alana-su-filtrasyon-indirimi-86775-43-B.jpg",
       "placeholder": "espresso-3g",
       "tagline": "Dokunmatik kontrol, dijital turbosteam, üç gruplu profesyonel espresso istasyonu.",
-      "description": "La Cimbali M40, üç gruplu otomatik espresso makinesi olarak yoğun kafe ve restoran kullanımı için tasarlandı. Touchscreen panel, programlanabilir dozaj, dijital sıcaklık kontrollü turbosteam ve enerji tasarrufu modu standart donanım.",
+      "description": "Termal Sistem (Enerji Verimliliği): Suyu boş yere kaynatıp elektriği sömürmüyor kanka. Çok verimli merkezi bir ısıtma sistemi var. Buhar ve sıcak su performansını hiç düşürmeden, ekrandan \"bu çekirdeği düşük sıcaklıkta demle\" diyebiliyorsun. Isı stabilitesi muazzam.\n\nPGS (Perfect Grinding System): Makinenin en efsane özelliği bu. Cihaz, uyumlu değirmenle (örneğin La Cimbali Elective) Wi-Fi/Bluetooth üzerinden haberleşiyor. Eğer kahve akışında bir anormallik sezerse, değirmene \"kanka biraz daha ince öğüt\" diye sinyal gönderip dozajı otomatik düzeltiyor. Barista hatasını sıfıra indiriyor.\n\nBDS (Barista Drive System): Portafiltreyi (kaşığı) taktığın an makine onu tanıyor ve değirmene \"buna tekli/çiftli çekim yap\" komutunu veriyor. Aşırı pratik.\n\nKullanım ve İşletme Konforu\n\nEl Yakmayan Buhar Kolları (Cool Touch): Makinede 2 adet el yakmayan buhar çubuğu var. Opsiyonel olarak birini \"Turbo Steam\" (otomatik süt köpürtücü) yapabiliyorsun. Özellikle yoğun saatlerde kimsenin eli yanmıyor, süt de her seferinde aynı kremsi formda çıkıyor.\n\nSıcak Su Seçenekleri: 3 farklı sıcak su ısı seçeneği var (mesela yeşil çay için ayrı, siyah çay için ayrı ısıda su alabiliyorsun) ve 1 adet sıcak su musluğu bulunuyor.\n\nFincan Isıtıcı: Üst tarafta 3 kademeli ayarlanabilen fincan ısıtıcısı var, kahvenin sunum sıcaklığı her daim korunuyor. Yazılım güncellemek veya yeni reçeteler yüklemek için de USB portu mevcut.",
       "features": [
         "Renkli touchscreen kullanıcı arayüzü",
         "TurboSteam Milk4 dijital süt köpürtme",
@@ -26,7 +26,7 @@
         },
         {
           "k": "Boyler kapasitesi",
-          "v": "14 L"
+          "v": "5 L"
         },
         {
           "k": "Güç",
@@ -38,19 +38,15 @@
         },
         {
           "k": "Ölçüler (GxDxY)",
-          "v": "975 × 570 × 530 mm"
+          "v": "1087x607x527 mm"
         },
         {
           "k": "Ağırlık",
-          "v": "75 kg"
+          "v": "92 kg"
         },
         {
           "k": "Pompa",
           "v": "Rotatif · 9 bar"
-        },
-        {
-          "k": "Su bağlantısı",
-          "v": "3/8\" şebeke + drenaj"
         }
       ]
     },

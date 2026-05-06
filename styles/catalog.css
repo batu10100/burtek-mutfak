@@ -26,9 +26,9 @@ button { font-family: inherit; }
 /* ---- Nav ---- */
 .bk-nav { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,0.85); backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); border-bottom: 1px solid var(--hairline); }
 .bk-nav__bar { max-width: 1440px; margin: 0 auto; padding: 14px 32px; display: flex; align-items: center; gap: 28px; }
-.bk-nav__brand { display: flex; align-items: center; gap: 10px; cursor: pointer; text-decoration: none; }
-.bk-nav__brand img { height: 26px; width: auto; }
-.bk-nav__brandtext { font: 600 14px/1 var(--font-display); color: var(--ink-muted-60); letter-spacing: -0.005em; }
+.bk-nav__brand { display: flex; align-items: center; gap: 12px; cursor: pointer; text-decoration: none; }
+.bk-nav__brand img { height: 44px; width: auto; }
+.bk-nav__brandtext { font: 600 18px/1 var(--font-display); color: var(--ink-muted-60); letter-spacing: -0.005em; }
 .bk-nav__links { display: flex; gap: 22px; align-items: center; }
 .bk-nav__links a { font: 400 14px/1 var(--font-text); color: var(--ink); cursor: pointer; opacity: 0.78; }
 .bk-nav__links a:hover, .bk-nav__links a.is-active { opacity: 1; color: var(--burtek-action); }
@@ -60,7 +60,7 @@ button { font-family: inherit; }
 .bk-hero__meta span { display: inline-flex; align-items: center; gap: 6px; font: 500 13px/1 var(--font-text); color: var(--ink-muted-60); }
 .bk-hero__meta i { width: 14px; height: 14px; color: var(--success); }
 .bk-hero__photo { display: flex; justify-content: center; align-items: center; min-height: 380px; }
-.bk-hero__photo img, .bk-hero__photo svg { max-width: 100%; max-height: 480px; object-fit: contain; filter: drop-shadow(3px 5px 30px rgba(0,0,0,0.22)); }
+.bk-hero__photo img, .bk-hero__photo svg { max-width: 100%; max-height: 480px; object-fit: contain; border-radius: 16px; filter: drop-shadow(3px 5px 30px rgba(0,0,0,0.18)); }
 
 @media (max-width: 900px) {
   .bk-hero { padding: 48px 20px 64px; }

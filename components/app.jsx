@@ -43,10 +43,10 @@ function Hero({ onBrowse, onContact }) {
     <section className="bk-hero">
       <div className="bk-hero__inner">
         <div className="bk-hero__copy">
-          <span className="bk-kicker">Burtek Kahve Festivali · 2026</span>
-          <h1 className="bk-hero__h">Profesyonel kahve & mutfak ekipmanları.</h1>
+          <span className="bk-kicker">Bursa Kahve Festivali · 2026</span>
+          <h1 className="bk-hero__h">Stand alanımızda bulunan profesyonel kahve &amp; mutfak ekipmanları.</h1>
           <p className="bk-hero__sub">
-            La Cimbali, Nuova Simonelli, Bezzera, Fiorenzato, Mazzer, UNOX, Hoshizaki ve daha fazlası — distribütör garantisi, Türkiye geneli servis. Festival standımızda canlı demolar.
+            La Cimbali, Nuova Simonelli, Bezzera, Fiorenzato, Mazzer, Unox, Hoshizaki ve çok daha fazlası Burtek Mutfak'ta! Ürünlerimizin tamamı için Bursaspor Stadındaki mağazamıza uğrayın…
           </p>
           <div className="bk-hero__ctas">
             <button className="bk-btn bk-btn--primary" onClick={onBrowse}>
@@ -66,7 +66,7 @@ function Hero({ onBrowse, onContact }) {
           </div>
         </div>
         <div className="bk-hero__photo">
-          <ProductImage src="assets/products/lacimbali-m40.jpg" alt="La Cimbali M40" kind="espresso-3g" eager />
+          <img src="assets/hero-banner.jpg" alt="Burtek Mutfak — Profesyonel kahve ve mutfak ekipmanları" loading="eager" />
         </div>
       </div>
     </section>

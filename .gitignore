@@ -17,3 +17,6 @@ Thumbs.db
 node_modules/
 npm-debug.log*
 yarn-error.log*
+
+# Original (large) source assets — kept locally, not deployed
+web.png

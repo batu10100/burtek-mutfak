@@ -2,3 +2,5 @@
 node_modules
 .git
 *.log
+web.png
+uploads/

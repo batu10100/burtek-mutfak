@@ -405,44 +405,48 @@
       "id": "myco-filter",
       "brand": "MYCO",
       "model": "Filtre Pro",
-      "title": "MYCO · Çift Potlu Filtre Kahve Makinesi",
+      "title": "Myco RH-330 Filtre Kahve Makinesi",
       "cat": "filter",
       "catLabel": "Filtre Kahve",
       "image": "assets/products/myco-filter.jpg",
       "placeholder": "filter-double",
       "tagline": "Çift cam pot, üst ısıtma plakası — kahveniz hep taze ve sıcak.",
-      "description": "MYCO çift potlu filtre kahve makinesi, ofis ve kafelerde sürekli filtre kahve servisi için ideal. Üst sıcak tutma plakası ile ikinci pot her zaman hazır.",
+      "description": "Hızlı ve Standart Demleme: Güçlü rezistans yapısı sayesinde 1.8 litrelik (yaklaşık 12-14 fincan) bir pot kahveyi sadece 5-6 dakika içinde servise hazır hale getirir. Yoğun sabah saatlerinde veya toplantı aralarında bekleme süresini minimuma indirir.\n\nÇift Isıtıcı Plaka (Dual Warming): Makinenin hem altında hem de üstünde bulunan bağımsız ısıtıcı plakalar sayesinde, demlenmiş kahvenizi uzun süre ilk anki sıcaklığında ve aromasında muhafaza edebilirsiniz.\n\nBağımsız Kullanım Esnekliği: Manuel su dolum özelliği sayesinde şebeke bağlantısına ihtiyaç duymaz. Fişe takabileceğiniz her noktada, ister toplantı odasında ister bar tezgahında anında kullanıma hazırdır.\n\nPaslanmaz Çelik ve Ergonomik Tasarım: Ön paneldeki paslanmaz çelik detaylar makineye modern bir görünüm katarken, cam potun ergonomik tutacağı güvenli ve damlatmayan bir servis imkanı sunar.",
       "features": [
         "Çift cam pot kapasitesi",
         "Üst ve alt sıcak tutma plakaları",
         "Tek dokunuşla demleme",
         "Paslanmaz çelik gövde",
-        "1.8 L hızlı demleme"
+        "1 L hızlı demleme"
       ],
       "specs": [
         {
           "k": "Pot kapasitesi",
-          "v": "2 × 1.8 L"
+          "v": "2 × 1 L"
         },
         {
           "k": "Demleme süresi",
-          "v": "~6 dk"
+          "v": "7 dk"
         },
         {
           "k": "Güç",
-          "v": "2.100 W"
+          "v": "2,1 k W"
         },
         {
           "k": "Voltaj",
-          "v": "230V · 50Hz"
+          "v": "220 V ~ 1N"
         },
         {
           "k": "Ölçüler (GxDxY)",
-          "v": "210 × 380 × 440 mm"
+          "v": "490 x 250 x 470 mm"
         },
         {
           "k": "Gövde",
           "v": "Paslanmaz çelik"
+        },
+        {
+          "k": "Kapasite",
+          "v": "144 Fincan / Saat"
         }
       ]
     },

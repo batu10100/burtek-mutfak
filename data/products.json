@@ -602,14 +602,14 @@
     {
       "id": "atollspeed-easy",
       "brand": "Atollspeed",
-      "model": "Easy Silver",
-      "title": "Easy Silver · Hızlı Pişirici Fırın",
+      "model": "Easy Turbo",
+      "title": "Atollspeed Easy Turbo Fırın",
       "cat": "ovens",
       "catLabel": "Fırınlar",
-      "image": "assets/products/atollspeed-easy.jpg",
+      "image": "assets/products/atollspeed-easy-1778077111769.jpg",
       "placeholder": "oven-speed",
       "tagline": "Mikrodalga + konveksiyon + ızgara. Take-away için ışık hızında pişirme.",
-      "description": "Atollspeed Easy Silver, mikrodalga, konveksiyon ve infrared ızgarayı tek cihazda birleştiren hızlı pişirici. Sandviç, panini, pizza ve hazır yemekler için saniyeler içinde sıcak servis.",
+      "description": "Baca Gerektirmeyen Özgürlük (Ventless): Entegre katalitik konvertörü sayesinde duman ve koku oluşumunu tamamen engeller. Havalandırma veya baca sistemine ihtiyaç duymadan, kafenizin veya işletmenizin her köşesinde rahatça konumlandırılabilir.\n\nDokunmatik Akıllı Ekran: Kullanıcı dostu, tam renkli dokunmatik ekranı üzerinden yüzlerce reçeteyi görselleriyle birlikte cihaza kaydedebilirsiniz. Personel eğitimine ihtiyaç duymadan, tek tuşla her seferinde kusursuz ve standart sonuçlar verir.\n\nKompakt ve Ergonomik Tasarım: Sadece 31.7 cm genişliği ile tezgah üstünde minimum yer kaplar. Dar çalışma alanlarında baristalara maksimum hareket özgürlüğü sunar.\n\nTak ve Çalıştır Kolaylığı: Monofaze (220V) standart elektrik bağlantısıyla çalışır, ekstra bir sanayi tipi tesisat kurulumu gerektirmez. Fişe taktığınız an operasyona hazırdır. Kolay sökülebilir iç aparatları sayesinde temizliği son derece pratiktir.",
       "features": [
         "3-in-1 teknoloji: mikrodalga + konveksiyon + ızgara",
         "Dokunmatik renkli ekran",
@@ -624,28 +624,24 @@
           "v": "Geleneksele göre 4–10× hızlı"
         },
         {
-          "k": "Mikrodalga gücü",
-          "v": "1.500 W"
-        },
-        {
-          "k": "Konveksiyon",
-          "v": "275°C max"
+          "k": "Ağırlık",
+          "v": "63 Kg"
         },
         {
           "k": "Toplam güç",
-          "v": "5.700 W"
+          "v": "2.700 W"
         },
         {
           "k": "Voltaj",
-          "v": "230V · 50Hz"
+          "v": "230V/1"
         },
         {
-          "k": "İç hacim",
-          "v": "16 L"
+          "k": "İç Ölçüler",
+          "v": "31,7x31,1x17 cm"
         },
         {
           "k": "Ölçüler (GxDxY)",
-          "v": "415 × 615 × 570 mm"
+          "v": "44,5x68,7x57 cm"
         }
       ]
     },

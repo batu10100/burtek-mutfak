@@ -694,10 +694,10 @@
       "title": "Hoshizaki · 60 kg Buz ve Su Dağıtıcı",
       "cat": "ice",
       "catLabel": "Buz Makineleri",
-      "image": "assets/products/hoshizaki-ice.jpg",
+      "image": "assets/products/hoshizaki-ice-1778078000067.jpg",
       "placeholder": "ice-dispenser",
       "tagline": "Japon mühendisliği. 60 kg/gün buz + soğuk su, tek dokunuşla servis.",
-      "description": "Hoshizaki DCM-60KE, hem küp buz hem soğuk su dağıtan kendi kendine servis cihazı. Otel lobisi, ofis ve fitness merkezleri için hijyenik temassız servis.",
+      "description": "Çok Yönlü Servis Seçenekleri: Tek bir cihaz üzerinden sadece buz, sadece su veya aynı anda hem buz hem su servisi alabilirsiniz. Hızlı servis noktalarında içecek hazırlama sürecini saniyelere indirir.\n\nPorsiyon Kontrolü: Sisteme entegre edilebilen porsiyon kontrolü sayesinde bardağa tam kararında buz dökülür. İsrafı önler, tezgahın kirlenmesini engeller ve işletme maliyetlerinizi korur.\n\nÖzel Cubelet Buz Teknolojisi: Ürettiği sıkıştırılmış, çiğnelenebilir mikro buz parçacıkları (Cubelet), içecekleri sıvıya karışarak çok daha hızlı soğutur. Özellikle smoothie, soğuk kahve ve kokteyllerde eşsiz bir doku sunar.\n\nMaksimum Hijyen (Sıfır Temas): Dış ortamla ve havayla teması tamamen kesilen buz haznesi, bakteri ve koku oluşumunu engeller.\n\nKompakt ve Şık Mimari: Sadece 28.8 cm genişliğiyle tezgah üstünde çok az yer kaplar. Dar ofis mutfaklarında veya kalabalık self-servis alanlarında operasyonunuzu rahatlatır.",
       "features": [
         "60 kg/gün buz üretimi",
         "Soğuk su dağıtım fonksiyonu",
@@ -712,32 +712,24 @@
           "v": "60 kg/24 saat"
         },
         {
-          "k": "Buz tipi",
-          "v": "Cubelet · yumuşak çiğnenebilir"
-        },
-        {
-          "k": "Hazne kapasitesi",
-          "v": "9 kg"
-        },
-        {
           "k": "Güç",
-          "v": "550 W"
+          "v": "280 W"
         },
         {
           "k": "Voltaj",
-          "v": "230V · 50Hz"
+          "v": "1/200-240 V"
         },
         {
           "k": "Ölçüler (GxDxY)",
-          "v": "395 × 600 × 800 mm"
+          "v": "35x58,5x69,5 cm"
         },
         {
           "k": "Soğutucu",
-          "v": "R290 · doğal"
+          "v": "R290"
         },
         {
-          "k": "Menşei",
-          "v": "Japonya"
+          "k": "Ağırlık",
+          "v": "47 kg"
         }
       ]
     },

@@ -154,10 +154,10 @@
       "title": "B2016 · Volümetrik Otomatik Espresso",
       "cat": "espresso",
       "catLabel": "Espresso Makineleri",
-      "image": "assets/products/bezzera-b2016.webp",
+      "image": "assets/products/bezzera-b2016-1778072325019.jpg",
       "placeholder": "espresso-2g-classic",
       "tagline": "1901'den beri Milano. Klasik İtalyan estetiği, modern volümetrik kontrol.",
-      "description": "Bezzera B2016, klasik İtalyan espresso geleneğinin modern yorumu. Volümetrik dozaj, ısı eşanjörlü boyler ve sağlam pirinç grup yapısı ile uzun yıllar dayanıklılık sunar.",
+      "description": "Tam Otomatik Hassasiyet: DE (Elektronik Dozajlama) sistemi, mikroişlemci kontrollü butonları sayesinde her fincanda standart ve reçeteye sadık kahve çıkışı sunar. Barista, kahve miktarını tek tuşla kolayca yönetebilir.\n\nÜst Düzey Isı Stabilitesi: Isı değiştiricili (Heat Exchanger) termosifonik sistem ve ağır hizmet tipi grup başlıkları, en yoğun saatlerde bile su sıcaklığının 9 bar basınç altında milimetrik bir stabilitede kalmasını sağlar.\n\nDayanıklı AISI 304 Gövde: Tamamı yüksek kaliteli AISI 304 paslanmaz çelikten üretilen gövde yapısı, mutfak şartlarına karşı maksimum dayanıklılık ve kolay temizlik imkanı sunar.\n\nÇok Yönlü Kullanım: Çift buhar çubuğu ve bağımsız sıcak su musluğu ile sütlü içecek ve çay hazırlama süreçlerini hızlandırır. Otomatik su dolum ünitesi sayesinde operasyonel iş yükünü minimize eder.",
       "features": [
         "Volümetrik elektronik dozaj kontrolü",
         "Pirinç E61 grup yapısı",
@@ -176,19 +176,19 @@
         },
         {
           "k": "Güç",
-          "v": "4.300 W"
+          "v": "3.300 W"
         },
         {
           "k": "Voltaj",
-          "v": "230–400V · 50Hz"
+          "v": "220 - 380 V"
         },
         {
           "k": "Ölçüler (GxDxY)",
-          "v": "770 × 565 × 530 mm"
+          "v": "750x550x515 mm"
         },
         {
           "k": "Ağırlık",
-          "v": "65 kg"
+          "v": "63 kg"
         },
         {
           "k": "Menşei",

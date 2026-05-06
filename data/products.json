@@ -649,13 +649,13 @@
       "id": "ndustrio-display",
       "brand": "Ndustrio",
       "model": "Pasta 70",
-      "title": "Ndustrio · 70'lik Pasta Teşhir Dolabı",
+      "title": "RTW-120L SET ÜSTÜ SOĞUK TEŞHİR ÜNİTESİ",
       "cat": "display",
       "catLabel": "Teşhir & Soğutma",
-      "image": "assets/products/ndustrio-display.webp",
+      "image": "assets/products/ndustrio-display-1778077552467.jpg",
       "placeholder": "display-cake",
       "tagline": "Curved cam teşhir, çift raf — pasta ve hamur işleri vitrin gibi.",
-      "description": "Ndustrio 70 cm pasta teşhir dolabı, kavisli ön cam ve LED aydınlatma ile pasta sunumunu görsel olarak güçlendirir. +2/+8°C aralığı standart pasta saklama.",
+      "description": "Panoramik Görünürlük: Bombeli ön camı ve dört taraflı şeffaf yalıtımlı tasarımı, içindeki ürünlerin her açıdan net ve iştah açıcı bir şekilde sergilenmesini sağlar.\n\nDinamik Soğutma Sistemi: İçerideki havayı eşit olarak dağıtan fanlı (havalandırmalı) soğutma mimarisi, dolabın tüm raflarındaki sıcaklığın sabit kalmasını sağlayarak ürünlerin kurumasını ve bozulmasını engeller. Otomatik defrost özelliği operasyonel kolaylık sunar.\n\nGöz Alıcı LED Aydınlatma: Enerji tasarruflu entegre tepe LED aydınlatması, vitrindeki lezzetlerin renklerini canlandırarak müşterinin dikkatini doğrudan ürünlerinize çeker.\n\nHassas Dijital Kontrol: Kullanıcı dostu dijital termostat ve sıcaklık göstergesi üzerinden iç ısıyı anlık olarak takip edebilir, ürünlerinizin ideal saklama koşullarına göre kolayca ayarlayabilirsiniz.\n\nEsnek Sergileme: Yüksekliği ayarlanabilir krom kaplı paslanmaz rafları sayesinde farklı boyutlardaki pasta ve ürünleri rahatça dizebilirsiniz. Arkada yer alan sürgülü cam kapılar, personele yoğun saatlerde hızlı ve pratik bir servis imkanı sunar.",
       "features": [
         "Kavisli ön cam · panoramik görünüm",
         "LED iç aydınlatma",
@@ -667,27 +667,23 @@
       "specs": [
         {
           "k": "Sıcaklık aralığı",
-          "v": "+2 / +8 °C"
+          "v": "0-12 ℃"
         },
         {
-          "k": "Genişlik",
-          "v": "70 cm"
+          "k": "Ölçüler",
+          "v": "696x568x686 mm"
         },
         {
           "k": "Kapasite",
-          "v": "100 L"
+          "v": "120 L"
         },
         {
           "k": "Güç",
-          "v": "260 W"
+          "v": "160 W"
         },
         {
           "k": "Voltaj",
-          "v": "230V · 50Hz"
-        },
-        {
-          "k": "Soğutucu gaz",
-          "v": "R600a · ekolojik"
+          "v": "220-240 V"
         }
       ]
     },

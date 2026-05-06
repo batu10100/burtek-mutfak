@@ -58,15 +58,6 @@ function Hero({ onBrowse, onContact }) {
               WhatsApp ile sor
             </a>
           </div>
-          <div className="bk-hero__meta">
-            <span><i data-lucide="check" /> 18 marka</span>
-            <span><i data-lucide="check" /> 27 makina</span>
-            <span><i data-lucide="check" /> 2 yıl garanti</span>
-            <span><i data-lucide="check" /> Türkiye geneli servis</span>
-          </div>
-        </div>
-        <div className="bk-hero__photo">
-          <img src="assets/hero-banner.jpg" alt="Burtek Mutfak — Profesyonel kahve ve mutfak ekipmanları" loading="eager" />
         </div>
       </div>
     </section>

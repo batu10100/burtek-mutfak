@@ -254,13 +254,13 @@
       "id": "fiorenzato-allground",
       "brand": "Fiorenzato",
       "model": "All Ground MD",
-      "title": "All Ground MD · Konik Bıçaklı Değirmen, Siyah",
+      "title": "Fiorenzato All Ground Kahve Değirmeni",
       "cat": "grinders",
       "catLabel": "Kahve Değirmenleri",
-      "image": "assets/products/fiorenzato-allground.jpg",
+      "image": "assets/products/fiorenzato-allground-1778075217757.jpg",
       "placeholder": "grinder-conic",
       "tagline": "Konik bıçaklı çok amaçlı değirmen — espresso'dan filtre kahveye tek makina.",
-      "description": "All Ground MD, espresso'dan French press'e kadar geniş öğütme aralığı sunan çok amaçlı değirmen. Konik bıçak yapısı düşük ısı transferi sağlar, aroma korunur.",
+      "description": "3 Farklı Demleme Profili (Çok Yönlülük): Özel tasarlanmış çevirmeli ayar halkası üzerinden Espresso, Moka Pot ve Filtre Kahve (V60, French Press vb.) seçenekleri arasında kolayca geçiş yapabilirsiniz.\n\nAkıllı ve Dinamik Dokunmatik Ekran: Halkayı çevirip seçtiğiniz demleme profiline göre dijital ekranın arayüzü otomatik olarak değişir. Espresso modunda saniye bazlı tekli/çiftli doz ayarı yaparken, filtre modunda manuel öğütme kontrolü sağlar.\n\n64 mm Endüstriyel Düz Dişliler (Flat Burrs): Fiorenzato'nun üst düzey ticari makinelerinde kullandığı titanyum kaplamalı (Dark-T) 64 mm bıçaklar, öğütme sırasındaki ısınmayı minimuma indirerek kahvenin gerçek aroma profilini bardağa eksiksiz taşır.\n\nKusursuz Mikrometrik Ayar: Kademesiz (stepless) öğütme ayar sistemi sayesinde milimetrik incelik değişiklikleri yaparak kusursuz espresso reçeteleri oluşturmanıza olanak tanır.",
       "features": [
         "Konik çelik bıçak yapısı",
         "Geniş öğütme aralığı",
@@ -292,6 +292,10 @@
         {
           "k": "Ağırlık",
           "v": "14 kg"
+        },
+        {
+          "k": "Ölçü",
+          "v": "16,9 x 24 x 47,3 cm"
         }
       ]
     },

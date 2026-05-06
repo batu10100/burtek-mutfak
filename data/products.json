@@ -553,10 +553,10 @@
       "id": "inoksan-oven",
       "brand": "İnoksan",
       "model": "FKE040",
-      "title": "İnoksan FKE040 · 40×60 Konveksiyon Fırın, 4 Tepsi",
+      "title": "İnoksan INO-FKE04D Konveksiyonlu Dijital Patisserie Fırın, 40x60 cm 4 Tepsi Kapasiteli, Elektrikli",
       "cat": "ovens",
       "catLabel": "Fırınlar",
-      "image": "assets/products/inoksan-oven.jpg",
+      "image": "assets/products/inoksan-oven-1778076954418.jpg",
       "placeholder": "oven-mechanical",
       "tagline": "Türk endüstrisinin omurgası. Mekanik kontrol, dayanıklı, kolay servis.",
       "description": "İnoksan FKE040, 40×60 cm tepsi standardında 4 tepsilik konveksiyon fırın. Mekanik kontroller eğitim gerektirmez; tüm Türkiye genelinde yaygın servis ağı.",
@@ -571,7 +571,7 @@
       "specs": [
         {
           "k": "Tepsi kapasitesi",
-          "v": "4 × 400 × 600 mm"
+          "v": "4 × 40 × 60 cm"
         },
         {
           "k": "Sıcaklık aralığı",
@@ -579,23 +579,23 @@
         },
         {
           "k": "Güç",
-          "v": "6.300 W"
+          "v": "7 kW"
         },
         {
           "k": "Voltaj",
-          "v": "400V · 50Hz · 3N"
+          "v": "220-240V 50Hz"
         },
         {
           "k": "Ölçüler (GxDxY)",
-          "v": "780 × 720 × 660 mm"
+          "v": "750x795x560 mm"
         },
         {
           "k": "Ağırlık",
           "v": "62 kg"
         },
         {
-          "k": "Menşei",
-          "v": "Türkiye"
+          "k": "Su Basıncı",
+          "v": "1.5 - 6 BAR"
         }
       ]
     },

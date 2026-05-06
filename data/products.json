@@ -787,19 +787,17 @@
       "id": "simag-sde40",
       "brand": "Simag",
       "model": "SDE40",
-      "title": "Simag SDE40 · İtalyan Küp Buz Makinesi",
+      "title": "Simag SDE40 Hazneli Parmak Buz Makinesi, 38 kg/gün Kapasiteli",
       "cat": "ice",
       "catLabel": "Buz Makineleri",
-      "image": "assets/products/simag-sde40.jpg",
+      "image": "assets/products/simag-sde40-1778078554881.jpg",
       "placeholder": "ice-italian",
       "tagline": "İtalyan profesyonel buz. Şeffaf küp, sessiz, dayanıklı.",
-      "description": "Simag SDE40, kristal berraklığında küp buz üreten İtalyan profesyonel makinesi. Kokteyl barları ve restoranlar için tasarlandı.",
+      "description": "Hızlı Soğutan Parmak Buz (Hollow Ice): İçi boş silindir şeklindeki özel buz yapısı, içecekle temas eden yüzey alanını maksimuma çıkararak sıvıları saniyeler içinde soğutur. Yumuşak dokusu sayesinde blender bıçaklarını yormadan kolayca parçalanır; smoothie, frozen ve ezilmiş buz gerektiren kokteyller için kusursuzdur.\n\nKirece Karşı Dirençli Mekanizma: Geleneksel fıskiyeli sistemler yerine su havuzunda çalışan yapraklı (paddle) mekanizması, kireçli sularda tıkanma ve arıza riskini minimuma indirerek cihazın ömrünü uzatır ve bakım maliyetlerini büyük ölçüde düşürür.\n\nKompakt ve İzole Hazne: Gövdeye entegre edilmiş 12 kg kapasiteli poliüretan yalıtımlı depolama haznesi, yoğun servis saatlerinde buzlarınızın uzun süre erimeden formunu korumasını sağlar.\n\nPaslanmaz Çelik Dayanıklılığı: Birinci sınıf paslanmaz çelikten üretilen dış gövde, mutfağınızın zorlu, sıcak ve nemli koşullarına karşı tam direnç gösterir ve kolay temizlenir.",
       "features": [
         "Kristal berraklığında küp buz",
         "40 kg/gün üretim",
-        "Sessiz çalışma",
-        "Hijyenik dahili antimikrobiyal koruma",
-        "Made in Italy"
+        "Sessiz çalışma"
       ],
       "specs": [
         {
@@ -808,27 +806,23 @@
         },
         {
           "k": "Buz tipi",
-          "v": "Şeffaf küp · 18 g"
+          "v": "Şeffaf küp 21 g"
         },
         {
           "k": "Hazne kapasitesi",
-          "v": "16 kg"
+          "v": "18 kg"
         },
         {
           "k": "Güç",
-          "v": "400 W"
+          "v": "350 W"
         },
         {
           "k": "Voltaj",
-          "v": "230V · 50Hz"
+          "v": "230 V NPE"
         },
         {
           "k": "Ölçüler (GxDxY)",
-          "v": "500 × 580 × 690 mm"
-        },
-        {
-          "k": "Menşei",
-          "v": "İtalya"
+          "v": "377 x 555 x 637 mm"
         }
       ]
     },

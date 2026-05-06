@@ -131,7 +131,7 @@ button { font-family: inherit; }
 .bk-sheet__body { padding: 48px 44px; max-height: calc(100vh - 80px); overflow-y: auto; }
 .bk-sheet__h { font-family: var(--font-display); font-size: 36px; font-weight: 600; line-height: 1.12; letter-spacing: -0.018em; margin: 0 0 14px; color: var(--ink); }
 .bk-sheet__lead { font: 400 19px/1.45 var(--font-text); color: var(--ink); margin: 0 0 14px; }
-.bk-sheet__desc { font: 400 16px/1.55 var(--font-text); color: var(--ink-muted-80); margin: 0 0 24px; }
+.bk-sheet__desc { font: 400 16px/1.55 var(--font-text); color: var(--ink-muted-80); margin: 0 0 24px; white-space: pre-wrap; }
 .bk-sheet__ctas { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 32px; }
 .bk-sheet__section { margin-bottom: 32px; }
 .bk-sheet__sh { font: 600 13px/1 var(--font-mono); color: var(--ink-muted-48); text-transform: uppercase; letter-spacing: 0.10em; margin: 0 0 14px; padding-bottom: 10px; border-bottom: 1px solid var(--hairline); }

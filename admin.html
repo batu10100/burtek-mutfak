@@ -1,0 +1,960 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Burtek Mutfak · Yönetim Paneli</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <style>
+    * { box-sizing: border-box; }
+    :root {
+      --ink: #0a0e14;
+      --ink-2: #4b5563;
+      --ink-3: #6b7280;
+      --bg: #f8f7f4;
+      --bg-2: #fff;
+      --border: #e5e7eb;
+      --border-2: #d1d5db;
+      --primary: #1fa9dc;
+      --primary-d: #1788b3;
+      --danger: #dc2626;
+      --success: #059669;
+      --warn: #d97706;
+      --r: 10px;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+      --shadow: 0 4px 12px rgba(0,0,0,0.08);
+      --shadow-lg: 0 10px 30px rgba(0,0,0,0.12);
+    }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      font-size: 14px;
+      line-height: 1.45;
+    }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    button {
+      font-family: inherit;
+      font-size: 14px;
+      cursor: pointer;
+      border: 1px solid var(--border-2);
+      background: var(--bg-2);
+      padding: 8px 14px;
+      border-radius: var(--r);
+      transition: all 0.15s;
+    }
+    button:hover { background: #f3f4f6; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    button.primary {
+      background: var(--primary); color: #fff; border-color: var(--primary);
+    }
+    button.primary:hover:not(:disabled) { background: var(--primary-d); border-color: var(--primary-d); }
+    button.danger { color: var(--danger); border-color: #fecaca; background: #fef2f2; }
+    button.danger:hover { background: #fee2e2; }
+    button.ghost { background: transparent; border-color: transparent; color: var(--ink-2); }
+    button.ghost:hover { background: #f3f4f6; }
+    input, textarea, select {
+      font-family: inherit;
+      font-size: 14px;
+      padding: 9px 12px;
+      border: 1px solid var(--border-2);
+      border-radius: var(--r);
+      background: var(--bg-2);
+      color: var(--ink);
+      width: 100%;
+      transition: border-color 0.15s;
+    }
+    input:focus, textarea:focus, select:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(31,169,220,0.15);
+    }
+    input:disabled { background: #f3f4f6; color: var(--ink-3); }
+    textarea { resize: vertical; min-height: 80px; }
+    label { display: block; font-weight: 600; font-size: 13px; margin-bottom: 6px; color: var(--ink); }
+    label small { font-weight: 400; color: var(--ink-3); }
+
+    /* Layout */
+    .topbar {
+      position: sticky; top: 0; z-index: 50;
+      background: var(--bg-2);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 24px;
+      display: flex; align-items: center; gap: 16px;
+    }
+    .topbar h1 { margin: 0; font-size: 17px; font-weight: 600; }
+    .topbar .subtle { color: var(--ink-3); font-size: 13px; margin-left: 4px; }
+    .topbar .spacer { flex: 1; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+
+    /* Login */
+    .login {
+      max-width: 480px; margin: 80px auto; background: var(--bg-2);
+      border: 1px solid var(--border); border-radius: 14px;
+      padding: 32px; box-shadow: var(--shadow);
+    }
+    .login h2 { margin: 0 0 8px; font-size: 22px; }
+    .login p { color: var(--ink-2); margin: 0 0 20px; }
+    .login .field { margin-bottom: 16px; }
+    .login .help {
+      font-size: 12px; color: var(--ink-3); margin-top: 8px;
+    }
+    .login button { width: 100%; padding: 11px; font-weight: 600; }
+    .login details { margin-top: 18px; font-size: 13px; color: var(--ink-2); }
+    .login details summary { cursor: pointer; font-weight: 600; }
+    .login details ol { padding-left: 18px; }
+    .login details li { margin: 6px 0; }
+    .login details code { background: #f3f4f6; padding: 1px 5px; border-radius: 4px; font-size: 12px; }
+
+    /* Toolbar */
+    .toolbar {
+      display: flex; align-items: center; gap: 12px;
+      margin-bottom: 16px; flex-wrap: wrap;
+    }
+    .toolbar input.search { max-width: 280px; }
+    .toolbar select { max-width: 200px; }
+
+    /* Product list */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 14px;
+    }
+    .card {
+      background: var(--bg-2);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      overflow: hidden;
+      display: flex; flex-direction: column;
+      transition: box-shadow 0.15s, transform 0.15s;
+    }
+    .card:hover { box-shadow: var(--shadow); }
+    .card .thumb {
+      aspect-ratio: 4/3;
+      background: #f3f4f6;
+      display: flex; align-items: center; justify-content: center;
+      overflow: hidden; color: var(--ink-3); font-size: 12px;
+    }
+    .card .thumb img { width: 100%; height: 100%; object-fit: cover; }
+    .card .body { padding: 12px 14px; flex: 1; display: flex; flex-direction: column; }
+    .card .brand { font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.05em; }
+    .card .title { font-weight: 600; margin: 4px 0 6px; line-height: 1.3; font-size: 14px; }
+    .card .meta { font-size: 12px; color: var(--ink-3); margin-bottom: 10px; }
+    .card .actions { display: flex; gap: 6px; margin-top: auto; }
+    .card .actions button { font-size: 12px; padding: 6px 10px; flex: 1; }
+
+    /* Edit form */
+    .edit-page { background: var(--bg-2); border: 1px solid var(--border); border-radius: 14px; padding: 24px; }
+    .edit-page h2 { margin: 0 0 4px; font-size: 20px; }
+    .edit-page .lead { color: var(--ink-3); margin: 0 0 22px; font-size: 13px; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+    .row.single { grid-template-columns: 1fr; }
+    @media (max-width: 600px) { .row { grid-template-columns: 1fr; } }
+    .field { margin-bottom: 14px; }
+
+    /* List editor (features, specs) */
+    .list-editor { display: flex; flex-direction: column; gap: 8px; }
+    .list-editor .li {
+      display: flex; gap: 8px; align-items: stretch;
+    }
+    .list-editor .li input { flex: 1; }
+    .list-editor .li-spec { display: grid; grid-template-columns: 1fr 1fr auto; gap: 8px; }
+    @media (max-width: 600px) { .list-editor .li-spec { grid-template-columns: 1fr 1fr; } .list-editor .li-spec button { grid-column: 1 / -1; } }
+    .list-editor .li button { padding: 6px 10px; font-size: 12px; flex-shrink: 0; }
+    .add-row { font-size: 13px; padding: 7px 12px; align-self: flex-start; margin-top: 4px; }
+
+    /* Image upload */
+    .img-field { display: flex; gap: 14px; align-items: flex-start; flex-wrap: wrap; }
+    .img-preview {
+      width: 160px; height: 120px;
+      background: #f3f4f6; border: 1px solid var(--border-2); border-radius: var(--r);
+      display: flex; align-items: center; justify-content: center;
+      overflow: hidden; color: var(--ink-3); font-size: 12px;
+    }
+    .img-preview img { width: 100%; height: 100%; object-fit: cover; }
+    .img-controls { flex: 1; min-width: 200px; display: flex; flex-direction: column; gap: 8px; }
+    .img-controls .img-input { font-size: 12px; }
+    input[type="file"] { padding: 6px; background: #f3f4f6; }
+
+    /* Footer actions */
+    .form-actions {
+      display: flex; gap: 8px; justify-content: flex-end;
+      padding-top: 16px; margin-top: 20px;
+      border-top: 1px solid var(--border);
+      position: sticky; bottom: 0; background: var(--bg-2);
+      flex-wrap: wrap;
+    }
+    .form-actions button { padding: 9px 18px; }
+
+    /* Status banner */
+    .banner {
+      position: fixed; top: 70px; left: 50%; transform: translateX(-50%);
+      max-width: 480px; min-width: 280px;
+      padding: 12px 18px; border-radius: var(--r);
+      box-shadow: var(--shadow-lg);
+      display: flex; align-items: center; gap: 10px;
+      z-index: 200; font-size: 14px; font-weight: 500;
+      animation: slideDown 0.2s ease-out;
+    }
+    @keyframes slideDown { from { transform: translate(-50%, -10px); opacity: 0; } to { transform: translate(-50%, 0); opacity: 1; } }
+    .banner.success { background: #ecfdf5; color: var(--success); border: 1px solid #a7f3d0; }
+    .banner.error { background: #fef2f2; color: var(--danger); border: 1px solid #fecaca; }
+    .banner.info { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
+    .banner button { background: transparent; border: 0; color: inherit; font-size: 18px; padding: 0; cursor: pointer; margin-left: auto; }
+
+    /* Empty state */
+    .empty {
+      padding: 60px 20px; text-align: center; color: var(--ink-3);
+      background: var(--bg-2); border: 1px dashed var(--border-2); border-radius: 14px;
+    }
+
+    /* Spinner */
+    .spinner {
+      display: inline-block; width: 14px; height: 14px;
+      border: 2px solid rgba(255,255,255,0.4); border-top-color: #fff;
+      border-radius: 50%; animation: spin 0.7s linear infinite;
+      vertical-align: -2px; margin-right: 6px;
+    }
+    .spinner.dark { border-color: rgba(0,0,0,0.15); border-top-color: var(--ink); }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Modal */
+    .modal {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.5);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 100; padding: 20px;
+    }
+    .modal-panel {
+      background: var(--bg-2); border-radius: 14px; padding: 24px;
+      max-width: 420px; width: 100%; box-shadow: var(--shadow-lg);
+    }
+    .modal-panel h3 { margin: 0 0 8px; font-size: 17px; }
+    .modal-panel p { margin: 0 0 16px; color: var(--ink-2); }
+    .modal-actions { display: flex; gap: 8px; justify-content: flex-end; }
+
+    /* Loading state */
+    .loading-page { padding: 80px 20px; text-align: center; color: var(--ink-3); }
+    .loading-page .spinner { width: 24px; height: 24px; border-width: 3px; vertical-align: middle; margin-right: 10px; }
+
+    /* Header tabs */
+    .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--border); margin-bottom: 20px; }
+    .tabs button {
+      border: 0; background: transparent; padding: 10px 16px;
+      border-radius: 0; border-bottom: 2px solid transparent;
+      font-weight: 500; color: var(--ink-2);
+    }
+    .tabs button:hover { background: transparent; color: var(--ink); }
+    .tabs button.active { color: var(--primary); border-bottom-color: var(--primary); }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+
+  <script>
+    /* ============================================================
+       Burtek Mutfak — Yönetim Paneli
+       Self-contained admin: directly commits to GitHub via API.
+       Token stored in browser localStorage (only on this device).
+       ============================================================ */
+
+    const REPO_OWNER = "batu10100";
+    const REPO_NAME = "burtek-mutfak";
+    const REPO = `${REPO_OWNER}/${REPO_NAME}`;
+    const BRANCH = "main";
+    const PRODUCTS_PATH = "data/products.json";
+    const TOKEN_KEY = "burtek_admin_token";
+
+    // ---------- State ----------
+    const state = {
+      token: localStorage.getItem(TOKEN_KEY) || "",
+      data: null,        // { products, categories }
+      sha: null,         // sha of products.json on remote
+      view: "login",     // login | loading | list | edit | new
+      editingIndex: -1,  // index in products array (-1 for new)
+      editingDraft: null,
+      filter: { q: "", cat: "all" },
+      saving: false,
+    };
+
+    // ---------- GitHub API helpers ----------
+    function gh(path, opts = {}) {
+      return fetch(`https://api.github.com/${path}`, {
+        ...opts,
+        headers: {
+          Authorization: `Bearer ${state.token}`,
+          Accept: "application/vnd.github+json",
+          "X-GitHub-Api-Version": "2022-11-28",
+          ...(opts.headers || {}),
+        },
+      });
+    }
+
+    // base64 encode utf-8 string (for GitHub API content)
+    function b64encode(str) {
+      const bytes = new TextEncoder().encode(str);
+      let bin = "";
+      for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+      return btoa(bin);
+    }
+    function b64decode(b64) {
+      const bin = atob(b64.replace(/\s/g, ""));
+      const bytes = new Uint8Array(bin.length);
+      for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+      return new TextDecoder().decode(bytes);
+    }
+
+    async function fetchProducts() {
+      const r = await gh(`repos/${REPO}/contents/${PRODUCTS_PATH}?ref=${BRANCH}`);
+      if (r.status === 401) throw new Error("AUTH");
+      if (r.status === 404) throw new Error("Ürün dosyası bulunamadı: data/products.json");
+      if (!r.ok) throw new Error(`Sunucu hatası: ${r.status}`);
+      const json = await r.json();
+      const text = b64decode(json.content);
+      return { data: JSON.parse(text), sha: json.sha };
+    }
+
+    async function saveProducts(data, sha, message) {
+      const text = JSON.stringify(data, null, 2) + "\n";
+      const body = {
+        message,
+        content: b64encode(text),
+        sha,
+        branch: BRANCH,
+      };
+      const r = await gh(`repos/${REPO}/contents/${PRODUCTS_PATH}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      const j = await r.json();
+      if (!r.ok) {
+        if (r.status === 409) throw new Error("CONFLICT");
+        throw new Error(j.message || "Kaydetme hatası");
+      }
+      return j.content.sha;
+    }
+
+    async function uploadImage(filename, base64data) {
+      const path = `assets/products/${filename}`;
+      // Try to find existing
+      let sha;
+      try {
+        const r = await gh(`repos/${REPO}/contents/${path}?ref=${BRANCH}`);
+        if (r.ok) {
+          const j = await r.json();
+          sha = j.sha;
+        }
+      } catch (e) { /* ignore */ }
+
+      const body = {
+        message: `Foto yükle: ${filename}`,
+        content: base64data,
+        branch: BRANCH,
+      };
+      if (sha) body.sha = sha;
+
+      const r = await gh(`repos/${REPO}/contents/${path}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      const j = await r.json();
+      if (!r.ok) throw new Error(j.message || "Foto yüklenemedi");
+      return path;
+    }
+
+    function fileToBase64(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => {
+          const result = reader.result;
+          // strip data:...;base64,
+          const i = result.indexOf(",");
+          resolve(i >= 0 ? result.substring(i + 1) : result);
+        };
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+    }
+
+    // ---------- Banner ----------
+    let bannerTimer = null;
+    function banner(message, kind = "info", durationMs = 3500) {
+      const old = document.querySelector(".banner");
+      if (old) old.remove();
+      if (bannerTimer) clearTimeout(bannerTimer);
+
+      const el = document.createElement("div");
+      el.className = `banner ${kind}`;
+      el.innerHTML = `<span></span><button aria-label="Kapat">×</button>`;
+      el.querySelector("span").textContent = message;
+      el.querySelector("button").onclick = () => el.remove();
+      document.body.appendChild(el);
+      if (durationMs) bannerTimer = setTimeout(() => el.remove(), durationMs);
+    }
+
+    // ---------- Modal confirm ----------
+    function confirmDialog(title, msg, opts = {}) {
+      return new Promise((resolve) => {
+        const m = document.createElement("div");
+        m.className = "modal";
+        m.innerHTML = `
+          <div class="modal-panel">
+            <h3></h3>
+            <p></p>
+            <div class="modal-actions">
+              <button class="cancel"></button>
+              <button class="confirm danger"></button>
+            </div>
+          </div>`;
+        m.querySelector("h3").textContent = title;
+        m.querySelector("p").textContent = msg;
+        m.querySelector(".cancel").textContent = opts.cancelText || "Vazgeç";
+        m.querySelector(".confirm").textContent = opts.confirmText || "Sil";
+        m.querySelector(".cancel").onclick = () => { m.remove(); resolve(false); };
+        m.querySelector(".confirm").onclick = () => { m.remove(); resolve(true); };
+        m.onclick = (e) => { if (e.target === m) { m.remove(); resolve(false); } };
+        document.body.appendChild(m);
+      });
+    }
+
+    // ---------- Render ----------
+    const app = () => document.getElementById("app");
+
+    function render() {
+      if (state.view === "login") return renderLogin();
+      if (state.view === "loading") return renderLoading();
+      if (state.view === "list") return renderList();
+      if (state.view === "edit" || state.view === "new") return renderEdit();
+    }
+
+    function renderLogin() {
+      app().innerHTML = `
+        <div class="login">
+          <h2>Burtek Yönetim Paneli</h2>
+          <p>GitHub Personal Access Token ile giriş yap.</p>
+
+          <div class="field">
+            <label>GitHub Token (PAT)</label>
+            <input id="tokenInput" type="password" placeholder="ghp_..." autocomplete="off" />
+            <div class="help">Token tarayıcının localStorage'ında saklanır. Sadece bu cihazda kalır.</div>
+          </div>
+
+          <button class="primary" id="loginBtn">Giriş yap</button>
+
+          <details>
+            <summary>GitHub Token nasıl oluşturulur?</summary>
+            <ol>
+              <li>Şu adresi aç: <a href="https://github.com/settings/tokens/new" target="_blank">github.com/settings/tokens/new</a></li>
+              <li><b>Note:</b> <code>burtek-admin</code></li>
+              <li><b>Expiration:</b> İstediğin süre (90 gün, 1 yıl veya "No expiration")</li>
+              <li><b>Select scopes:</b> sadece <code>repo</code> kutusunu işaretle (alt seçenekler otomatik seçilir)</li>
+              <li>Sayfanın en altında <b>"Generate token"</b> tıkla</li>
+              <li>Açılan token'ı (ghp_... ile başlar) kopyala, yukarıdaki kutuya yapıştır</li>
+            </ol>
+          </details>
+        </div>`;
+      const input = document.getElementById("tokenInput");
+      input.value = state.token;
+      input.focus();
+      input.addEventListener("keydown", (e) => { if (e.key === "Enter") doLogin(); });
+      document.getElementById("loginBtn").onclick = doLogin;
+    }
+
+    async function doLogin() {
+      const v = document.getElementById("tokenInput").value.trim();
+      if (!v) return banner("Token boş olamaz", "error");
+      state.token = v;
+      localStorage.setItem(TOKEN_KEY, v);
+      await loadProducts();
+    }
+
+    async function loadProducts() {
+      state.view = "loading";
+      render();
+      try {
+        const { data, sha } = await fetchProducts();
+        state.data = data;
+        state.sha = sha;
+        state.view = "list";
+        render();
+      } catch (e) {
+        if (e.message === "AUTH") {
+          banner("Token geçersiz. Yeni bir token üret veya kontrol et.", "error", 5000);
+          state.token = "";
+          localStorage.removeItem(TOKEN_KEY);
+          state.view = "login";
+          render();
+        } else {
+          banner(e.message || "Veri yüklenemedi", "error", 5000);
+          state.view = "login";
+          render();
+        }
+      }
+    }
+
+    function renderLoading() {
+      app().innerHTML = `
+        <div class="loading-page">
+          <span class="spinner dark"></span>
+          Yükleniyor…
+        </div>`;
+    }
+
+    function renderTopbar() {
+      return `
+        <div class="topbar">
+          <h1>Burtek Yönetim</h1>
+          <span class="subtle">${state.data ? state.data.products.length + " ürün" : ""}</span>
+          <div class="spacer"></div>
+          <a href="/" target="_blank">Siteyi aç ↗</a>
+          <button class="ghost" id="logoutBtn">Çıkış</button>
+        </div>`;
+    }
+
+    function attachTopbar() {
+      const lo = document.getElementById("logoutBtn");
+      if (lo) lo.onclick = async () => {
+        const yes = await confirmDialog("Çıkış yap?", "Token bu cihazdan silinecek. Tekrar girmek için yeniden token gerekecek.", { confirmText: "Çıkış yap", cancelText: "Vazgeç" });
+        if (yes) {
+          localStorage.removeItem(TOKEN_KEY);
+          state.token = "";
+          state.data = null;
+          state.view = "login";
+          render();
+        }
+      };
+    }
+
+    function renderList() {
+      const products = state.data.products;
+      const cats = state.data.categories || [];
+      const q = state.filter.q.toLowerCase();
+      const c = state.filter.cat;
+      const filtered = products
+        .map((p, i) => ({ p, i }))
+        .filter(({ p }) => {
+          if (c !== "all" && p.cat !== c) return false;
+          if (q) {
+            const blob = (p.brand + " " + p.title + " " + p.model + " " + p.id).toLowerCase();
+            if (!blob.includes(q)) return false;
+          }
+          return true;
+        });
+
+      app().innerHTML = `
+        ${renderTopbar()}
+        <div class="container">
+          <div class="toolbar">
+            <button class="primary" id="newBtn">+ Yeni Ürün</button>
+            <input class="search" id="searchInput" type="text" placeholder="Marka veya model ara…" />
+            <select id="catSelect">
+              <option value="all">Tüm kategoriler</option>
+              ${cats.filter(c => c.id !== "all").map(c => `<option value="${escAttr(c.id)}">${escHTML(c.label)}</option>`).join("")}
+            </select>
+            <span class="spacer" style="flex:1"></span>
+            <button class="ghost" id="catsBtn">Kategorileri yönet</button>
+            <button class="ghost" id="reloadBtn" title="Listeyi yenile">↻ Yenile</button>
+          </div>
+
+          ${filtered.length === 0
+            ? `<div class="empty">Sonuç bulunamadı.</div>`
+            : `<div class="grid">
+              ${filtered.map(({ p, i }) => renderCard(p, i)).join("")}
+            </div>`}
+        </div>`;
+
+      attachTopbar();
+      document.getElementById("newBtn").onclick = startNew;
+      document.getElementById("reloadBtn").onclick = loadProducts;
+      document.getElementById("catsBtn").onclick = openCategoriesEditor;
+      const si = document.getElementById("searchInput");
+      si.value = state.filter.q;
+      si.oninput = () => { state.filter.q = si.value; renderList(); };
+      const cs = document.getElementById("catSelect");
+      cs.value = state.filter.cat;
+      cs.onchange = () => { state.filter.cat = cs.value; renderList(); };
+      document.querySelectorAll("[data-edit]").forEach(b =>
+        b.onclick = () => startEdit(parseInt(b.dataset.edit, 10))
+      );
+      document.querySelectorAll("[data-del]").forEach(b =>
+        b.onclick = () => deleteProduct(parseInt(b.dataset.del, 10))
+      );
+    }
+
+    function renderCard(p, i) {
+      const imgSrc = p.image ? `/${escAttr(p.image)}` : "";
+      return `
+        <div class="card">
+          <div class="thumb">
+            ${p.image ? `<img src="${imgSrc}" alt="" onerror="this.parentNode.textContent='(foto yüklenemedi)'" />` : `<span>(foto yok)</span>`}
+          </div>
+          <div class="body">
+            <div class="brand">${escHTML(p.brand || "")}</div>
+            <div class="title">${escHTML(p.model || p.title || "(başlıksız)")}</div>
+            <div class="meta">${escHTML(p.catLabel || p.cat || "")}</div>
+            <div class="actions">
+              <button data-edit="${i}">Düzenle</button>
+              <button class="danger" data-del="${i}">Sil</button>
+            </div>
+          </div>
+        </div>`;
+    }
+
+    function escHTML(s) {
+      if (s == null) return "";
+      return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    }
+    function escAttr(s) { return escHTML(s); }
+
+    function startEdit(idx) {
+      state.editingIndex = idx;
+      state.editingDraft = JSON.parse(JSON.stringify(state.data.products[idx]));
+      state.view = "edit";
+      render();
+    }
+
+    function startNew() {
+      state.editingIndex = -1;
+      const cats = (state.data.categories || []).filter(c => c.id !== "all");
+      const firstCat = cats[0] || { id: "espresso", label: "Espresso" };
+      state.editingDraft = {
+        id: "",
+        brand: "",
+        model: "",
+        title: "",
+        cat: firstCat.id,
+        catLabel: firstCat.label,
+        image: "",
+        placeholder: "",
+        tagline: "",
+        description: "",
+        features: [],
+        specs: [],
+      };
+      state.view = "new";
+      render();
+    }
+
+    async function deleteProduct(idx) {
+      const p = state.data.products[idx];
+      const yes = await confirmDialog("Ürünü sil?", `"${p.brand} ${p.model}" silinecek. Bu işlem GitHub'a hemen commit'lenir.`, { confirmText: "Sil" });
+      if (!yes) return;
+      const newData = JSON.parse(JSON.stringify(state.data));
+      newData.products.splice(idx, 1);
+      try {
+        banner("Siliniyor…", "info", 0);
+        const newSha = await saveProducts(newData, state.sha, `Sil: ${p.brand} ${p.model}`);
+        state.data = newData;
+        state.sha = newSha;
+        banner("Silindi. ~30 sn içinde site güncellenecek.", "success");
+        renderList();
+      } catch (e) {
+        banner(handleSaveError(e), "error", 6000);
+      }
+    }
+
+    function renderEdit() {
+      const isNew = state.view === "new";
+      const d = state.editingDraft;
+      const cats = (state.data.categories || []).filter(c => c.id !== "all");
+
+      app().innerHTML = `
+        ${renderTopbar()}
+        <div class="container">
+          <div class="edit-page">
+            <h2>${isNew ? "Yeni Ürün" : "Ürün Düzenle"}</h2>
+            <p class="lead">Tüm değişiklikler kaydedilince GitHub'a commit gider, ~30 sn'de canlıya yansır.</p>
+
+            <div class="row">
+              <div class="field">
+                <label>ID <small>(boşluksuz, küçük harf, benzersiz)</small></label>
+                <input id="f_id" value="${escAttr(d.id)}" ${isNew ? "" : "disabled"} placeholder="ornek-urun-id" />
+              </div>
+              <div class="field">
+                <label>Kategori</label>
+                <select id="f_cat">
+                  ${cats.map(c => `<option value="${escAttr(c.id)}" ${c.id === d.cat ? "selected" : ""}>${escHTML(c.label)}</option>`).join("")}
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="field">
+                <label>Marka</label>
+                <input id="f_brand" value="${escAttr(d.brand)}" />
+              </div>
+              <div class="field">
+                <label>Model</label>
+                <input id="f_model" value="${escAttr(d.model)}" />
+              </div>
+            </div>
+
+            <div class="field">
+              <label>Kart Başlığı <small>(katalogda kart üstünde görünen tam metin)</small></label>
+              <input id="f_title" value="${escAttr(d.title)}" />
+            </div>
+
+            <div class="field">
+              <label>Kategori Etiketi <small>(modal'da kategori adı)</small></label>
+              <input id="f_catLabel" value="${escAttr(d.catLabel)}" />
+            </div>
+
+            <div class="field">
+              <label>Fotoğraf</label>
+              <div class="img-field">
+                <div class="img-preview" id="imgPreview">
+                  ${d.image ? `<img src="/${escAttr(d.image)}" alt="" onerror="this.parentNode.textContent='(önizleme yok)'" />` : `(foto yok)`}
+                </div>
+                <div class="img-controls">
+                  <input type="file" id="f_imgUpload" class="img-input" accept="image/jpeg,image/png,image/webp" />
+                  <input id="f_image" value="${escAttr(d.image)}" placeholder="assets/products/dosya.jpg" />
+                  <div class="help" style="font-size:12px;color:var(--ink-3);">Foto seçince otomatik yüklenir ve yol güncellenir. Manuel yol da yazabilirsin.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="field">
+              <label>Placeholder Tipi <small>(foto yokken gösterilen SVG, opsiyonel)</small></label>
+              <input id="f_placeholder" value="${escAttr(d.placeholder || "")}" placeholder="örn. espresso-3g, grinder-touch" />
+            </div>
+
+            <div class="field">
+              <label>Tanıtım Yazısı <small>(kart altında görünen kısa metin)</small></label>
+              <textarea id="f_tagline">${escHTML(d.tagline || "")}</textarea>
+            </div>
+
+            <div class="field">
+              <label>Modal Açıklaması <small>(detay sayfasındaki uzun metin)</small></label>
+              <textarea id="f_description" rows="5">${escHTML(d.description || "")}</textarea>
+            </div>
+
+            <div class="field">
+              <label>Öne Çıkan Özellikler</label>
+              <div class="list-editor" id="featuresList"></div>
+              <button class="add-row" id="addFeature">+ Özellik ekle</button>
+            </div>
+
+            <div class="field">
+              <label>Teknik Özellikler</label>
+              <div class="list-editor" id="specsList"></div>
+              <button class="add-row" id="addSpec">+ Satır ekle</button>
+            </div>
+
+            <div class="form-actions">
+              <button id="cancelBtn">Vazgeç</button>
+              <button class="primary" id="saveBtn">${isNew ? "Ekle" : "Kaydet"}</button>
+            </div>
+          </div>
+        </div>`;
+
+      attachTopbar();
+      renderFeatures();
+      renderSpecs();
+
+      // Auto-fill catLabel when cat changes
+      document.getElementById("f_cat").onchange = (e) => {
+        const c = cats.find(x => x.id === e.target.value);
+        if (c) {
+          const cl = document.getElementById("f_catLabel");
+          if (!cl.value || cats.some(x => x.label === cl.value)) cl.value = c.label;
+        }
+      };
+
+      document.getElementById("addFeature").onclick = () => { d.features = d.features || []; d.features.push(""); renderFeatures(); };
+      document.getElementById("addSpec").onclick = () => { d.specs = d.specs || []; d.specs.push({ k: "", v: "" }); renderSpecs(); };
+
+      document.getElementById("cancelBtn").onclick = () => { state.view = "list"; render(); };
+      document.getElementById("saveBtn").onclick = saveEdit;
+
+      // Image upload handler
+      document.getElementById("f_imgUpload").onchange = handleImageUpload;
+    }
+
+    function renderFeatures() {
+      const list = document.getElementById("featuresList");
+      const features = state.editingDraft.features || [];
+      list.innerHTML = features.map((f, i) => `
+        <div class="li">
+          <input value="${escAttr(f)}" data-idx="${i}" />
+          <button class="danger" data-rm="${i}">×</button>
+        </div>
+      `).join("");
+      list.querySelectorAll("input[data-idx]").forEach(inp => {
+        inp.oninput = () => { state.editingDraft.features[parseInt(inp.dataset.idx)] = inp.value; };
+      });
+      list.querySelectorAll("[data-rm]").forEach(b => {
+        b.onclick = () => { state.editingDraft.features.splice(parseInt(b.dataset.rm), 1); renderFeatures(); };
+      });
+    }
+
+    function renderSpecs() {
+      const list = document.getElementById("specsList");
+      const specs = state.editingDraft.specs || [];
+      list.innerHTML = specs.map((s, i) => `
+        <div class="li li-spec">
+          <input value="${escAttr(s.k || "")}" data-k="${i}" placeholder="Etiket (örn. Güç)" />
+          <input value="${escAttr(s.v || "")}" data-v="${i}" placeholder="Değer (örn. 5500 W)" />
+          <button class="danger" data-rmspec="${i}">×</button>
+        </div>
+      `).join("");
+      list.querySelectorAll("input[data-k]").forEach(inp => {
+        inp.oninput = () => { state.editingDraft.specs[parseInt(inp.dataset.k)].k = inp.value; };
+      });
+      list.querySelectorAll("input[data-v]").forEach(inp => {
+        inp.oninput = () => { state.editingDraft.specs[parseInt(inp.dataset.v)].v = inp.value; };
+      });
+      list.querySelectorAll("[data-rmspec]").forEach(b => {
+        b.onclick = () => { state.editingDraft.specs.splice(parseInt(b.dataset.rmspec), 1); renderSpecs(); };
+      });
+    }
+
+    async function handleImageUpload(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      // Build clean filename
+      const id = (document.getElementById("f_id").value || "urun").trim().toLowerCase().replace(/[^a-z0-9-]+/g, "-");
+      const ext = file.name.split(".").pop().toLowerCase();
+      const safeExt = ["jpg", "jpeg", "png", "webp"].includes(ext) ? ext : "jpg";
+      const filename = `${id || "urun"}-${Date.now()}.${safeExt}`;
+
+      banner("Foto yükleniyor…", "info", 0);
+      try {
+        const b64 = await fileToBase64(file);
+        const path = await uploadImage(filename, b64);
+        document.getElementById("f_image").value = path;
+        // Update preview
+        const preview = document.getElementById("imgPreview");
+        preview.innerHTML = `<img src="/${path}" alt="" />`;
+        banner("Foto yüklendi.", "success");
+      } catch (err) {
+        banner("Foto yüklenemedi: " + (err.message || ""), "error", 6000);
+      }
+    }
+
+    async function saveEdit() {
+      const d = state.editingDraft;
+      const isNew = state.view === "new";
+
+      // Read form values
+      d.id = document.getElementById("f_id").value.trim();
+      d.cat = document.getElementById("f_cat").value;
+      d.brand = document.getElementById("f_brand").value.trim();
+      d.model = document.getElementById("f_model").value.trim();
+      d.title = document.getElementById("f_title").value.trim();
+      d.catLabel = document.getElementById("f_catLabel").value.trim();
+      d.image = document.getElementById("f_image").value.trim();
+      d.placeholder = document.getElementById("f_placeholder").value.trim();
+      d.tagline = document.getElementById("f_tagline").value.trim();
+      d.description = document.getElementById("f_description").value.trim();
+      // features and specs already updated live
+
+      // Validation
+      if (!d.id) return banner("ID boş olamaz", "error");
+      if (!/^[a-z0-9-]+$/.test(d.id)) return banner("ID sadece küçük harf, rakam ve tire içerebilir", "error");
+      if (!d.brand) return banner("Marka boş olamaz", "error");
+      if (!d.model) return banner("Model boş olamaz", "error");
+      if (!d.title) return banner("Başlık boş olamaz", "error");
+      if (!d.cat || !d.catLabel) return banner("Kategori boş olamaz", "error");
+
+      if (isNew && state.data.products.some(p => p.id === d.id)) {
+        return banner("Bu ID zaten kullanılıyor: " + d.id, "error");
+      }
+
+      // Clean up empty features/specs
+      d.features = (d.features || []).map(f => f.trim()).filter(Boolean);
+      d.specs = (d.specs || []).filter(s => (s.k && s.k.trim()) || (s.v && s.v.trim())).map(s => ({ k: (s.k || "").trim(), v: (s.v || "").trim() }));
+
+      const newData = JSON.parse(JSON.stringify(state.data));
+      if (isNew) newData.products.push(d);
+      else newData.products[state.editingIndex] = d;
+
+      const message = isNew ? `Yeni ürün ekle: ${d.brand} ${d.model}` : `Düzenle: ${d.brand} ${d.model}`;
+      banner("Kaydediliyor…", "info", 0);
+      try {
+        const newSha = await saveProducts(newData, state.sha, message);
+        state.data = newData;
+        state.sha = newSha;
+        banner("Kaydedildi. ~30 sn içinde site güncellenecek.", "success");
+        state.view = "list";
+        render();
+      } catch (e) {
+        banner(handleSaveError(e), "error", 6000);
+      }
+    }
+
+    function handleSaveError(e) {
+      if (e.message === "CONFLICT") return "Çakışma: başkası aynı anda düzenleme yapmış. Sayfayı yenile, tekrar dene.";
+      if (e.message === "AUTH") return "Token geçersiz. Çıkış yap, yeni token üret.";
+      return "Hata: " + (e.message || "Bilinmeyen");
+    }
+
+    // ---------- Categories editor ----------
+    async function openCategoriesEditor() {
+      const cats = JSON.parse(JSON.stringify(state.data.categories || []));
+      const m = document.createElement("div");
+      m.className = "modal";
+      m.innerHTML = `
+        <div class="modal-panel" style="max-width:560px;">
+          <h3>Kategorileri Yönet</h3>
+          <p>Sıralamayı veya etiketleri değiştir. ID'ler ürünlerin kategorisini belirler — değiştirirsen ürünlerin <code>cat</code> alanını da güncellemen gerekir.</p>
+          <div id="catList" class="list-editor" style="max-height:300px; overflow-y:auto; margin-bottom:12px;"></div>
+          <button class="add-row" id="addCat">+ Kategori ekle</button>
+          <div class="modal-actions" style="margin-top:18px;">
+            <button id="catCancel">Vazgeç</button>
+            <button class="primary" id="catSave">Kaydet</button>
+          </div>
+        </div>`;
+      document.body.appendChild(m);
+
+      const draw = () => {
+        const list = m.querySelector("#catList");
+        list.innerHTML = cats.map((c, i) => `
+          <div class="li li-spec" style="grid-template-columns:1fr 1fr auto;">
+            <input value="${escAttr(c.id)}" data-cid="${i}" placeholder="id" ${c.id === "all" ? "disabled" : ""} />
+            <input value="${escAttr(c.label)}" data-clabel="${i}" placeholder="Etiket" />
+            <button class="danger" data-crm="${i}" ${c.id === "all" ? "disabled" : ""}>×</button>
+          </div>`).join("");
+        list.querySelectorAll("input[data-cid]").forEach(inp => inp.oninput = () => { cats[parseInt(inp.dataset.cid)].id = inp.value.trim().toLowerCase(); });
+        list.querySelectorAll("input[data-clabel]").forEach(inp => inp.oninput = () => { cats[parseInt(inp.dataset.clabel)].label = inp.value; });
+        list.querySelectorAll("[data-crm]").forEach(b => b.onclick = () => { cats.splice(parseInt(b.dataset.crm), 1); draw(); });
+      };
+      draw();
+
+      m.querySelector("#addCat").onclick = () => { cats.push({ id: "", label: "" }); draw(); };
+      m.querySelector("#catCancel").onclick = () => m.remove();
+      m.querySelector("#catSave").onclick = async () => {
+        for (const c of cats) {
+          if (!c.id || !c.label) return banner("Tüm kategorilerin id ve etiketi olmalı", "error");
+          if (!/^[a-z0-9-]+$/.test(c.id)) return banner(`Geçersiz id: "${c.id}" (sadece küçük harf, rakam, tire)`, "error");
+        }
+        const ids = cats.map(c => c.id);
+        if (new Set(ids).size !== ids.length) return banner("Aynı ID birden fazla kategoride var", "error");
+
+        const newData = JSON.parse(JSON.stringify(state.data));
+        newData.categories = cats;
+        m.remove();
+        banner("Kategoriler kaydediliyor…", "info", 0);
+        try {
+          const newSha = await saveProducts(newData, state.sha, "Kategorileri güncelle");
+          state.data = newData;
+          state.sha = newSha;
+          banner("Kategoriler kaydedildi.", "success");
+          renderList();
+        } catch (e) {
+          banner(handleSaveError(e), "error", 6000);
+        }
+      };
+    }
+
+    // ---------- Boot ----------
+    if (state.token) {
+      loadProducts();
+    } else {
+      render();
+    }
+  </script>
+</body>
+</html>

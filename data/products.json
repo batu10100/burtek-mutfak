@@ -205,7 +205,7 @@
       "catLabel": "Kahve Değirmenleri",
       "image": "assets/products/fiorenzato-f64.jpg",
       "placeholder": "grinder-touch",
-      "tagline": "Dokunmatik ekran, otomatik kalibrasyon, akıllı sıcaklık yönetimi.",
+      "tagline": "Dokunmatik ekran, otomatik kalibrasyon, akıllı sıcaklık yönetimi ve hassas tartı",
       "description": "Fiorenzato F64 EVO Sense, 64 mm düz çelik bıçaklı on-demand değirmen. Dokunmatik LCD ekran, otomatik kalibrasyon ve sıcaklık sensörü ile her dozda tutarlı öğütme.",
       "features": [
         "64 mm düz çelik bıçak",
@@ -222,15 +222,15 @@
         },
         {
           "k": "Hopper kapasitesi",
-          "v": "1.6 kg"
+          "v": "1,5 kg"
         },
         {
           "k": "Motor gücü",
-          "v": "350 W"
+          "v": "450 watt (60 Hz)"
         },
         {
           "k": "Devir",
-          "v": "1.350 rpm"
+          "v": "1350/dak (50 Hz) - 1550/dak (60 Hz)"
         },
         {
           "k": "Üretim hızı",
@@ -238,15 +238,15 @@
         },
         {
           "k": "Voltaj",
-          "v": "230V · 50Hz"
+          "v": "220V · 50Hz"
         },
         {
           "k": "Ölçüler (GxDxY)",
-          "v": "200 × 390 × 660 mm"
+          "v": "230x615x270 mm"
         },
         {
           "k": "Ağırlık",
-          "v": "16 kg"
+          "v": "13 kg"
         }
       ]
     },

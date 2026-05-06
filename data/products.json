@@ -103,20 +103,18 @@
       "id": "nuova-appia-life",
       "brand": "Nuova Simonelli",
       "model": "Appia Life 2 GR",
-      "title": "Appia Life · 2 Gruplu Yüksek Kaşıklı, Siyah",
+      "title": "Nuova Simonelli Appia Life · 2 Gruplu Yüksek Kaşıklı, Siyah",
       "cat": "espresso",
       "catLabel": "Espresso Makineleri",
-      "image": "assets/products/nuova-appia-life.jpg",
+      "image": "assets/products/nuova-simonelli-appia-life-2-gruplu-espresso-kahve-makinesi-13-parca-kafe-seti-siyah-kahve-makinesi-setleri-nuova-simonelli-84989-43-B.jpg",
       "placeholder": "espresso-2g-tall",
       "tagline": "Yüksek kaşıklı tasarım — büyük take-away kupalar için ergonomik akış.",
-      "description": "Nuova Simonelli Appia Life, ergonomik LED aydınlatmalı çalışma alanı ve yüksek kaşıklı (tall cup) tasarımı ile take-away yoğun kafelerin tercihi. Soft Infusion System ile dengeli ekstraksiyon.",
+      "description": "SIS (Soft Infusion System): Nuova Simonelli'nin patentli yumuşak demleme sistemi, suyun basınçtan önce kahve yatağına nazikçe nüfuz etmesini sağlar. Bu teknoloji, olası tamping (sıkıştırma) hatalarını tolere ederek her fincanda kusursuz ve standart bir espresso elde edilmesini garanti eder.\n\nBarista Dostu Ergonomi: Çalışma konforunu maksimuma çıkaran \"Push & Pull\" (İt-Çek) buhar kolları, baristanın bilek yorgunluğunu önler. Gün boyu pratik ve hızlı süt köpürtme imkanı sunar.\n\nReverse Mirror (Geri Görüş Aynası): Arka panele entegre edilen ayna tasarımı sayesinde barista, kahve damlacıklarının akışını ve krema kalitesini eğilmeye gerek kalmadan rahatça kontrol edebilir.\n\nGeniş ve Dayanıklı Yapı: Paslanmaz çelik çalışma alanı ve güçlendirilmiş ABS gövdesi, uzun yıllar boyunca mutfağın zorlu şartlarına meydan okur.",
       "features": [
         "Yüksek kaşıklı (tall cup) yapı",
         "Soft Infusion System (SIS)",
         "LED aydınlatmalı çalışma alanı",
-        "Ergonomik portafiltre tutucu",
-        "Cool Touch buhar borusu opsiyonu",
-        "Programlanabilir 5 dozaj seçeneği"
+        "Ergonomik portafiltre tutucu"
       ],
       "specs": [
         {
@@ -129,19 +127,19 @@
         },
         {
           "k": "Güç",
-          "v": "4.500 W"
+          "v": "3.000 W"
         },
         {
           "k": "Voltaj",
-          "v": "230–400V · 50Hz"
+          "v": "220-380 Volt"
         },
         {
           "k": "Ölçüler (GxDxY)",
-          "v": "740 × 545 × 525 mm"
+          "v": "740 × 545 × 530 mm"
         },
         {
           "k": "Ağırlık",
-          "v": "63 kg"
+          "v": "54 kg"
         },
         {
           "k": "Renk",

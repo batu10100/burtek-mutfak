@@ -737,13 +737,13 @@
       "id": "ozti-okb37a",
       "brand": "Öztiryaki",
       "model": "OKB37A",
-      "title": "Öztiryaki OKB37A · Küp Buz Makinesi",
+      "title": "Öztiryakiler OKB37A Hazneli Küp Buz Makinesi, 37 kg/gün Kapasiteli",
       "cat": "ice",
       "catLabel": "Buz Makineleri",
-      "image": "assets/products/ozti-okb37a.jpg",
+      "image": "assets/products/ozti-okb37a-1778078366777.jpg",
       "placeholder": "ice-cube",
       "tagline": "Türk üretimi. 37 kg/gün küp buz, kompakt under-counter yerleşim.",
-      "description": "Öztiryaki OKB37A, bar ve kafe için optimize edilmiş under-counter küp buz makinesi. Yerli üretim, kolay servis ve düşük çalışma maliyeti.",
+      "description": "Kristal Küp Buz Teknolojisi: İçeceklerin tadını bozmayan, yavaş eriyen, şeffaf ve tam dolu (gourmet) küp buzlar üretir. Kokteyller, soğuk kahveler ve meşrubatlar için en ideal soğutma ve sunum kalitesini sağlar.\n\nEntegre Depolama Haznesi: Makine gövdesine entegre 15 kg kapasiteli yalıtımlı depolama haznesi, yoğun servis anlarında her zaman hazırda taze buz bulunmasını garanti eder. Poliüretan izolasyon sayesinde buzların erime süresini maksimum seviyede geciktirir.\n\nDayanıklı ve Hijyenik Gövde: Tamamı AISI 304 kalite paslanmaz çelikten üretilen dış ve iç yapısı, mutfağın nemli ve zorlu koşullarına karşı tam koruma sağlar. Temizliği son derece pratik ve uzun ömürlüdür.\n\nTropikal Performans: Gelişmiş hava soğutma sistemi sayesinde, ortam sıcaklığının yüksek olduğu sıcak yaz aylarında veya havasız mutfaklarda bile üretim kapasitesinden ve performansından ödün vermeden çalışır.",
       "features": [
         "37 kg/gün buz üretimi",
         "15 kg buz haznesi",
@@ -759,27 +759,27 @@
         },
         {
           "k": "Buz tipi",
-          "v": "Küp · 22 g"
+          "v": "Küp · 18 g"
         },
         {
           "k": "Hazne kapasitesi",
-          "v": "15 kg"
+          "v": "16 kg"
         },
         {
           "k": "Güç",
-          "v": "350 W"
+          "v": "380W"
         },
         {
           "k": "Voltaj",
-          "v": "230V · 50Hz"
+          "v": "220 V - 50 Hz"
         },
         {
           "k": "Ölçüler (GxDxY)",
-          "v": "500 × 580 × 720 mm"
+          "v": "497x592x687 mm"
         },
         {
-          "k": "Soğutma",
-          "v": "Hava"
+          "k": "Ağırlık",
+          "v": "40 kg"
         }
       ]
     },

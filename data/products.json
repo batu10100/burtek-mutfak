@@ -454,13 +454,13 @@
       "id": "kef-filter",
       "brand": "KEF",
       "model": "Filtro",
-      "title": "KEF Filtro · Filtre Kahve Makinesi, Siyah",
+      "title": "KEF Filtro FLT120 Filtre Kahve Makinesi",
       "cat": "filter",
       "catLabel": "Filtre Kahve",
-      "image": "assets/products/kef-filter.jpg",
+      "image": "assets/products/kef-filter-1778076498473.jpg",
       "placeholder": "filter-single",
       "tagline": "Sade ve dayanıklı. Tek pot filtre kahve, mat siyah gövde.",
-      "description": "KEF Filtro, kompakt iz alanda profesyonel filtre kahve. Mat siyah gövde, basit kontrol — eğitim gerektirmeyen güvenilir günlük makina.",
+      "description": "Hızlı ve Standart Performans: Güçlü altyapısı sayesinde 1.8 litrelik cam potu sadece 5-6 dakika gibi kısa bir sürede mükemmel şekilde demler. Yoğun sirkülasyonda bile servis hızınızı asla düşürmez.\n\nBağımsız Çift Isıtıcı Plaka: Makinenin alt ve üst kısmında bulunan iki adet teflon kaplamalı ısıtıcı plaka, demlenen kahvenin lezzetini ve ısısını uzun süre ilk anki gibi korur.\n\nEsnek Konumlandırma: Su tesisatına (şebeke bağlantısına) ihtiyaç duymayan manuel su dolum yapısı sayesinde, makineyi prize ulaşabildiğiniz her alanda kolayca konumlandırabilir ve anında kullanıma açabilirsiniz.\n\nPaslanmaz Çelik Şıklığı: Ön yüzeydeki paslanmaz çelik detaylar ve darbelere dayanıklı gövde yapısı, hem modern bir görünüm sunar hem de uzun ömürlü ve hijyenik bir kullanım sağlar.",
       "features": [
         "Tek dokunuşla otomatik demleme",
         "Sıcak tutma plakası",
@@ -475,19 +475,23 @@
         },
         {
           "k": "Güç",
-          "v": "2.000 W"
+          "v": "2,4 kW"
         },
         {
           "k": "Voltaj",
-          "v": "230V · 50Hz"
+          "v": "220V - 1N"
         },
         {
           "k": "Ölçüler (GxDxY)",
-          "v": "200 × 360 × 440 mm"
+          "v": "190×370×440 mm"
         },
         {
           "k": "Renk",
           "v": "Mat siyah"
+        },
+        {
+          "k": "Kapasite",
+          "v": "144 fincan/saat"
         }
       ]
     },

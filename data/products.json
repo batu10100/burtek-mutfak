@@ -499,13 +499,13 @@
       "id": "unox-rosella",
       "brand": "UNOX",
       "model": "Bakerlux Rosella",
-      "title": "Bakerlux Rosella · LED Kontrollü Konveksiyon Fırın",
+      "title": "Unox Bakerlux SHOP.Pro XEFR-04EU-ELDV LED Rosella Fırın, 4 Tepsi Kapasiteli, 60x40 cm, Elektrikli",
       "cat": "ovens",
       "catLabel": "Fırınlar",
       "image": "assets/products/unox-rosella.jpg",
       "placeholder": "oven-led",
       "tagline": "İtalyan mühendisliği. LED kontrol, çift fan, çıtır bakery sonucu.",
-      "description": "UNOX Bakerlux Rosella, pasta ve unlu mamul için optimize edilmiş konveksiyon fırın. LED kontrol paneli ile sezgisel kullanım, çift fan ile homojen pişirme.",
+      "description": "Akıllı LED Kontrol Paneli: Kullanımı son derece kolay olan dijital LED ekran üzerinden 99 farklı pişirme programı kaydedebilir, her program için ön ısıtma ve 3 farklı pişirme adımı belirleyebilirsiniz. Barista ve çalışanlar için operasyonu sıfır hatayla standartlaştırır.\n\nKusursuz Nemlendirme (STEAM.Plus): Özellikle kruvasan ve taze hamur işlerinde hayati önem taşıyan nemi, pişirme odasına saniyeler içinde ve homojen bir şekilde dağıtır. Ürünlerin içinin yumuşacık, dışının ise altın sarısı ve çıtır kalmasını sağlar.\n\nNemi Uzaklaştırma (DRY.Plus): Pişirme sürecinin son aşamalarında fırın içindeki fazla nemi tahliye ederek, bisküvi, kurabiye ve hamur işlerinin ideal kıtırlığa ve dokuya ulaşmasına yardımcı olur.\n\nÇift Yönlü Fan Sistemi: Fırın içindeki hava sirkülasyonunu kusursuz bir dengeyle dağıtır. Her tepsinin ve her ürünün tam olarak aynı oranda pişmesini garanti eder.",
       "features": [
         "LED kontrol paneli",
         "Çift ters dönüşlü fan sistemi",
@@ -517,7 +517,7 @@
       "specs": [
         {
           "k": "Tepsi kapasitesi",
-          "v": "4 × 460 × 330 mm"
+          "v": "4 × 400 × 60 cm"
         },
         {
           "k": "Sıcaklık aralığı",
@@ -529,11 +529,11 @@
         },
         {
           "k": "Voltaj",
-          "v": "230V · 50Hz"
+          "v": "400 V ~ 3N"
         },
         {
           "k": "Ölçüler (GxDxY)",
-          "v": "600 × 720 × 510 mm"
+          "v": "800x811x500"
         },
         {
           "k": "Buhar",
@@ -542,6 +542,10 @@
         {
           "k": "Menşei",
           "v": "İtalya"
+        },
+        {
+          "k": "Ağırlık",
+          "v": "57 kg"
         }
       ]
     },

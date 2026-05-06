@@ -356,13 +356,13 @@
       "id": "remta-de22",
       "brand": "REMTA",
       "model": "DE22",
-      "title": "DE22 · 2 Demlikli Pro Şamandıralı Çay Makinesi",
+      "title": "Remta DE22 Pro Serisi 2 Demlikli Jumbo Çay Makinesi",
       "cat": "tea",
       "catLabel": "Çay Makineleri",
       "image": "assets/products/remta-de22.jpg",
       "placeholder": "tea-2pot",
       "tagline": "Şebekeye doğrudan bağlantı, otomatik şamandıra — sürekli çay.",
-      "description": "REMTA DE22, şebeke su bağlantılı iki demlikli profesyonel çay makinesi. Şamandıra sistemi su seviyesini otomatik korur, ahşap panelli klasik tasarım kafe atmosferini tamamlar.",
+      "description": "Susuz Çalışma Emniyeti: Makinenin içindeki su tükendiğinde sistem otomatik olarak rezistansı kapatır. Isıtıcıların yanmasını engelleyerek hem işletmenizi güvenceye alır hem de makinenin ömrünü uzatır.\n\nAkıllı Termostat Sistemi: Ayarlanabilir otomatik termostatı sayesinde suyu sürekli ideal demleme ve servis sıcaklığında sabit tutar. Gereksiz enerji tüketimini önler ve çayın lezzetini korur.\n\nErgonomik ve Dayanıklı Musluklar: Sızdırma ve damlatma yapmayan, yoğun bas-bırak kullanımına uygun olarak tasarlanmış sağlam musluk yapısı ile temiz ve pratik bir servis sunar.\n\nHijyenik Paslanmaz Çelik Yapı: Hem su haznesi hem de çift demliği yüksek kalite paslanmaz çelikten üretilmiştir. Koku yapmaz, temizliği son derece kolaydır ve uzun yıllar ilk günkü kondisyonunu korur.\n\nSu Seviye Göstergesi: Dış panelde yer alan şeffaf gösterge tüpü sayesinde, kapağı açmaya gerek kalmadan kalan su miktarını anlık olarak takip edebilirsiniz.",
       "features": [
         "Şebeke su bağlantılı şamandıra sistemi",
         "İki adet paslanmaz çelik demlik",
@@ -377,7 +377,7 @@
         },
         {
           "k": "Su haznesi",
-          "v": "12 L"
+          "v": "19 L"
         },
         {
           "k": "Demlik kapasitesi",
@@ -385,11 +385,11 @@
         },
         {
           "k": "Güç",
-          "v": "3.000 W"
+          "v": "2200 W"
         },
         {
           "k": "Voltaj",
-          "v": "230V · 50Hz"
+          "v": "220-230 V 50-60 Hz (Monofaze)"
         },
         {
           "k": "Su bağlantısı",
@@ -397,7 +397,7 @@
         },
         {
           "k": "Gövde",
-          "v": "Paslanmaz çelik + ahşap"
+          "v": "304 Kalite Paslanmaz Çelik"
         }
       ]
     },

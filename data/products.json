@@ -303,13 +303,13 @@
       "id": "mazzer-grinder",
       "brand": "Mazzer",
       "model": "Süper Jolly",
-      "title": "Süper Jolly · Profesyonel Espresso Değirmeni",
+      "title": "Mazzer Super Jolly Pro Electronic On Demand Kahve Değirmeni",
       "cat": "grinders",
       "catLabel": "Kahve Değirmenleri",
-      "image": "assets/products/mazzer-grinder.jpg",
+      "image": "assets/products/mazzer-grinder-1778075814911.jpg",
       "placeholder": "grinder-classic",
       "tagline": "İtalyan klasiği. Endüstri standardı 64 mm bıçak, dövme alüminyum gövde.",
-      "description": "Mazzer Süper Jolly, espresso dünyasının referans değirmeni. 64 mm düz bıçak, dövme alüminyum gövde ve sürekli kullanıma uygun motor ile yıllarca güvenilir performans.",
+      "description": "GFC (Grind Flow Control) Sistemi: Mazzer'in yenilikçi akış kontrol teknolojisi, statik elektriklenmeyi ve topaklanmayı önler. Portafiltreye her seferinde pürüzsüz, homojen ve temiz bir kahve dökülmesini sağlar.\n\nAkıllı Dijital Ekran (IoT Uyumlu): Geniş açılı elektronik panel üzerinden tekli, çiftli ve üçlü doz ayarları saniyenin yüzde biri hassasiyetinde yapılabilir. Günlük porsiyon istatistikleri ve bakım uyarıları ile baristanın tüm kontrolü elinde tutmasını sağlar.\n\nMemory Track (Ayar Kaybetmeyen Temizlik): Öğütme odasını temizlemek için açtığınızda, mevcut öğütme incelik ayarınız (kalibrasyon) bozulmaz. Temizlik sonrası tam olarak bıraktığınız yerden, milimetrik hassasiyetle çalışmaya devam edersiniz.\n\nÇift Fanlı Soğutma ve 64mm Dişliler: İki adet entegre soğutma fanı, yoğun anlarda bile motoru serin tutarak çekirdeklerin aromalarını ısıdan korur. Yüksek kaliteli 64 mm düz çelik dişliler, uzun ömürlü ve mükemmel bir kesim kalitesi sunar.",
       "features": [
         "64 mm düz çelik bıçak",
         "Dövme alüminyum gövde",
@@ -324,7 +324,7 @@
         },
         {
           "k": "Hopper kapasitesi",
-          "v": "1.2 kg"
+          "v": "1,1 kg"
         },
         {
           "k": "Motor gücü",
@@ -332,7 +332,7 @@
         },
         {
           "k": "Devir",
-          "v": "1.400 rpm"
+          "v": "1400 rpm"
         },
         {
           "k": "Voltaj",
@@ -344,7 +344,11 @@
         },
         {
           "k": "Ağırlık",
-          "v": "13 kg"
+          "v": "14 kg"
+        },
+        {
+          "k": "Ölçü",
+          "v": "240x404x601 mm"
         }
       ]
     },

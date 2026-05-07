@@ -879,13 +879,13 @@
       "id": "robot-coupe-j80",
       "brand": "Robot Coupe",
       "model": "J80 Ultra",
-      "title": "Robot Coupe J80 · Profesyonel Katı Meyve Sıkacağı",
+      "title": "Robot Coupe J 80 Ultra Otomatik Katı Meyve Sıkacağı",
       "cat": "juicers",
       "catLabel": "Meyve Sıkacakları",
       "image": "assets/products/robot-coupe-j80.jpg",
       "placeholder": "juicer-pro",
       "tagline": "Fransız mühendisliği. 79 mm besleme ağzı — bütün meyve, doğrudan içeri.",
-      "description": "Robot Coupe J80 Ultra, geniş besleme ağzı ve sürekli pulp atımı ile barlarda hız kazandırır. Saatte 120+ bardak taze meyve suyu kapasitesi.",
+      "description": "Otomatik Besleme Sistemi (Tokmaksız Kullanım): 79 mm genişliğindeki özel tasarımlı huni ağzı sayesinde elma, havuç, portakal gibi ürünleri tokmakla (pusher) itmeye gerek kalmaz. Meyveleri bütün olarak atın, cihaz benzersiz akış dinamiğiyle saniyeler içinde işlemi tamamlasın.\n\nSessiz ve Güçlü Asenkron Motor: 3000 RPM (devir/dakika) hızında çalışan endüstriyel motoru, meyve sularını ısıtmadan ve vitamin değerlerini koruyarak anında sıkar. Oksidasyonu minimuma indirirken, o kadar sessiz çalışır ki bar tezgahında müşterilerinizi asla rahatsız etmez.\n\nYüksek İşlem Hacmi: Saatte 120 litreye kadar taze meyve suyu üretebilme kapasitesiyle en yoğun servis anlarında bile tıkanmadan çalışır. Cihazın arkasına mükemmel şekilde oturan 6.5 litrelik yarı saydam posa haznesi, sürekli boşaltma ihtiyacını ortadan kaldırır.\n\nPaslanmaz Çelik Şıklığı ve Kolay Temizlik: Filtre sepeti, rende diski ve kase tamamen paslanmaz çelikten üretilmiştir. Hiçbir el aleti gerektirmeden saniyeler içinde sökülüp takılabilen parçaları sayesinde operasyon ortasında ve gün sonunda temizliği son derece pratiktir. Damlama önleyici musluğu tezgahın her zaman temiz kalmasını sağlar.",
       "features": [
         "79 mm geniş besleme ağzı",
         "Sürekli pulp atım sistemi",
@@ -905,15 +905,15 @@
         },
         {
           "k": "Motor",
-          "v": "700 W · endüksiyon"
+          "v": "700 Watt"
         },
         {
           "k": "Devir",
-          "v": "3.000 rpm"
+          "v": "3000 devir/dk"
         },
         {
           "k": "Voltaj",
-          "v": "230V · 50Hz"
+          "v": "230V / 50Hz (Monofaze)"
         },
         {
           "k": "Pulp haznesi",
@@ -921,7 +921,7 @@
         },
         {
           "k": "Ölçüler (GxDxY)",
-          "v": "227 × 425 × 595 mm"
+          "v": "235 x 535 x 505 mm"
         },
         {
           "k": "Menşei",

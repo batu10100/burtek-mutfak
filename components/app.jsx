@@ -227,8 +227,8 @@ function ProductSheet({ product, onClose }) {
             <div className="bk-sheet__assurance">
               <div><i data-lucide="shield-check" /><span><strong>2 yıl garanti</strong><small>Distribütör</small></span></div>
               <div><i data-lucide="wrench" /><span><strong>Türkiye servis</strong><small>Yetkili teknisyen</small></span></div>
-              <div><i data-lucide="truck" /><span><strong>2–3 iş günü</strong><small>Stok teslim</small></span></div>
-              <div><i data-lucide="graduation-cap" /><span><strong>Barista eğitimi</strong><small>Ücretsiz · espresso</small></span></div>
+              <div><i data-lucide="truck" /><span><strong>1 hafta</strong><small>Stok teslim</small></span></div>
+              <div><i data-lucide="graduation-cap" /><span><strong>Barista eğitimi</strong><small>Ücretsiz · Makine eğitimi</small></span></div>
             </div>
           </div>
         </div>
@@ -252,8 +252,7 @@ function ContactSection() {
             WhatsApp ile yaz · {WHATSAPP_DISPLAY}
           </a>
           <div className="bk-contact__meta">
-            <a href={`tel:+${WHATSAPP_NUMBER}`}><i data-lucide="phone" /> {WHATSAPP_DISPLAY}</a>
-            <a href="mailto:info@burtekmutfak.com"><i data-lucide="mail" /> info@burtekmutfak.com</a>
+            <a href="https://instagram.com/burtekmutfak" target="_blank" rel="noopener"><i data-lucide="instagram" /> burtekmutfak</a>
             <span><i data-lucide="map-pin" /> Burtek Kahve Festivali Stand · A12</span>
           </div>
         </div>
@@ -268,7 +267,6 @@ function Footer() {
       <div className="bk-footer__inner">
         <div className="bk-footer__brand">
           <img src="assets/logo-burtek.png" alt="Burtek" />
-          <p>Profesyonel kahve ve mutfak ekipmanları. 2026 Burtek Kahve Festivali resmi katılımcısı.</p>
         </div>
         <div>
           <h5>Kategoriler</h5>
@@ -289,13 +287,11 @@ function Footer() {
         <div>
           <h5>İletişim</h5>
           <a href={waLink("Merhaba")}>WhatsApp · {WHATSAPP_DISPLAY}</a>
-          <a href={`tel:+${WHATSAPP_NUMBER}`}>Telefon</a>
-          <a href="mailto:info@burtekmutfak.com">E-posta</a>
+          <a href="https://instagram.com/burtekmutfak" target="_blank" rel="noopener">Instagram · burtekmutfak</a>
         </div>
       </div>
       <div className="bk-footer__legal">
         <span>© 2026 Burtek Mutfak · Tüm hakları saklıdır.</span>
-        <span>Burtek Kahve Festivali · Resmi katılımcı</span>
       </div>
     </footer>
   );

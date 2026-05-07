@@ -186,7 +186,7 @@ button { font-family: inherit; }
 /* ---- Footer ---- */
 .bk-footer { background: var(--surface-black); color: var(--body-muted); padding: 64px 32px 32px; }
 .bk-footer__inner { max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 40px; }
-.bk-footer__brand img { height: 28px; filter: brightness(0) invert(1); margin-bottom: 14px; }
+.bk-footer__brand img { height: 96px; filter: brightness(0) invert(1); margin-bottom: 14px; }
 .bk-footer__brand p { font: 400 14px/1.6 var(--font-text); color: var(--body-muted); max-width: 320px; margin: 0; }
 .bk-footer h5 { font: 600 13px/1 var(--font-mono); color: #fff; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 16px; }
 .bk-footer a { display: block; font: 400 14px/2 var(--font-text); color: var(--body-muted); text-decoration: none; cursor: pointer; }

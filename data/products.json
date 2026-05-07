@@ -830,10 +830,10 @@
       "id": "iceinox-35kg",
       "brand": "Ice Inox",
       "model": "TKY35",
-      "title": "Ice Inox · 35 kg Buz Makinesi",
+      "title": "Iceinox ICE 35 Hazneli Gurme Buz Makinesi, 35 kg/gün Kapasiteli",
       "cat": "ice",
       "catLabel": "Buz Makineleri",
-      "image": "assets/products/iceinox-35kg.jpg",
+      "image": "assets/products/iceinox-35kg-1778139888817.jpg",
       "placeholder": "ice-stainless",
       "tagline": "Tam paslanmaz gövde. 35 kg/gün, ekonomik profesyonel buz.",
       "description": "Ice Inox TKY35, tam paslanmaz çelik gövdeli profesyonel buz makinesi. Yerli üretim, ekonomik fiyat, yaygın servis.",
@@ -855,11 +855,11 @@
         },
         {
           "k": "Hazne kapasitesi",
-          "v": "13 kg"
+          "v": "10 kg"
         },
         {
           "k": "Güç",
-          "v": "330 W"
+          "v": "540 W"
         },
         {
           "k": "Voltaj",
@@ -867,7 +867,11 @@
         },
         {
           "k": "Ölçüler (GxDxY)",
-          "v": "490 × 570 × 690 mm"
+          "v": "39x60x73 cm"
+        },
+        {
+          "k": "Ağırlık",
+          "v": "48 Kg"
         }
       ]
     },

@@ -7,7 +7,6 @@ function GlobalNav({ onHome, onCat, cat, query, setQuery, onContact }) {
       <div className="bk-nav__bar">
         <a className="bk-nav__brand" onClick={onHome}>
           <img src="assets/logo-burtek.png" alt="Burtek" />
-          <span className="bk-nav__brandtext">Mutfak</span>
         </a>
         <nav className="bk-nav__links">
           <a onClick={() => onCat("all")} className={cat === "all" ? "is-active" : ""}>Katalog</a>
@@ -44,7 +43,7 @@ function Hero({ onBrowse, onContact }) {
       <div className="bk-hero__inner">
         <div className="bk-hero__copy">
           <span className="bk-kicker">Bursa Kahve Festivali · 2026</span>
-          <h1 className="bk-hero__h">Stand alanımızda bulunan profesyonel kahve &amp; mutfak ekipmanları.</h1>
+          <h1 className="bk-hero__h">Stant alanımızda bulunan profesyonel kahve &amp; mutfak ekipmanları.</h1>
           <p className="bk-hero__sub">
             La Cimbali, Nuova Simonelli, Bezzera, Fiorenzato, Mazzer, Unox, Hoshizaki ve çok daha fazlası Burtek Mutfak'ta! Ürünlerimizin tamamı için Bursaspor Stadındaki mağazamıza uğrayın…
           </p>

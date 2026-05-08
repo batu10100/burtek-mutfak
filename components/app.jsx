@@ -252,7 +252,7 @@ function ContactSection() {
           </a>
           <div className="bk-contact__meta">
             <a href="https://instagram.com/burtekmutfak" target="_blank" rel="noopener"><i data-lucide="instagram" /> burtekmutfak</a>
-            <span><i data-lucide="map-pin" /> Burtek Kahve Festivali Stand · A12</span>
+            <span><i data-lucide="map-pin" /> Bursa Kahve Festivali Stant K4-K77</span>
           </div>
         </div>
       </div>

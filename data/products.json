@@ -215,8 +215,8 @@
     {
       "id": "fiorenzato-f64",
       "brand": "Fiorenzato",
-      "model": "F64 EVO Sense",
-      "title": "F64 EVO Sense · Dokunmatik On-Demand Değirmen",
+      "model": "F64 EVO",
+      "title": "F64 EVO · Dokunmatik On-Demand Değirmen",
       "cat": "grinders",
       "catLabel": "Kahve Değirmenleri",
       "image": "assets/products/fiorenzato-f64.jpg",
@@ -263,6 +263,10 @@
         {
           "k": "Ağırlık",
           "v": "13 kg"
+        },
+        {
+          "k": "Fiyat",
+          "v": "1250 Euro"
         }
       ]
     },

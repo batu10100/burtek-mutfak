@@ -592,8 +592,8 @@
     {
       "id": "inoksan-oven",
       "brand": "İnoksan",
-      "model": "FKE040",
-      "title": "İnoksan INO-FKE04D Konveksiyonlu Dijital Patisserie Fırın, 40x60 cm 4 Tepsi Kapasiteli, Elektrikli",
+      "model": "FKE04M",
+      "title": "İnoksan INO-FKE04M Konveksiyonlu Dijital Patisserie Fırın, 40x60 cm 4 Tepsi Kapasiteli, Elektrikli",
       "cat": "ovens",
       "catLabel": "Fırınlar",
       "image": "assets/products/inoksan-oven-1778076954418.jpg",
@@ -636,6 +636,10 @@
         {
           "k": "Su Basıncı",
           "v": "1.5 - 6 BAR"
+        },
+        {
+          "k": "Fiyat",
+          "v": "900 Euro"
         }
       ]
     },
